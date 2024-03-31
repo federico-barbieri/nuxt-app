@@ -17,7 +17,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 div{
-border: 1px solid green;
 padding: 1rem;
 display: inline;
 

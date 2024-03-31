@@ -18,6 +18,7 @@
     </section>
 
     <section class="contact">
+      <contact />
       
     </section>
     
@@ -37,7 +38,7 @@ background-color: red;
 height: 90vh;
 margin: 0 auto;
 border-radius: 30px;
-grid-template-columns: repeat(3, 1fr);
+grid-template-columns: 1fr 2fr 2fr;
 grid-template-rows: repeat(3, 1fr);
 gap: 1.5rem;
 grid-template-areas: 
@@ -54,12 +55,14 @@ section{
 .name{
   grid-area: name;
   background-color: aliceblue;
+  border: 5px solid blue;
 }
 
 .projects{
   grid-area: projects;
   background-color: burlywood;
-  width: auto;
+  border: 5px solid blue;
+  
 }
 
 .tools{
