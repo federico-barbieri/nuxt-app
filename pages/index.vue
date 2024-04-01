@@ -67,7 +67,6 @@ section{
 
 .tools{
   grid-area: tools;
-  background-color:chocolate;
 
 }
 
