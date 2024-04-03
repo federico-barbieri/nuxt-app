@@ -5,20 +5,21 @@
 <template>
   <main id="grid">
 
-    <section class="name">
-      <myName />
+    <section class="daycares">
+      <daycares />
+     
     </section>
 
-    <section class="projects">
-      <projects />
+    <section class="swampfest">
+      <swampfest />
     </section>
 
-    <section class="tools">
-      <tools />
+    <section class="messiverse">
+      <messiverse />
     </section>
 
-    <section class="contact">
-      <contact />
+    <section class="advertising">
+      <advertising />
       
     </section>
     
@@ -34,17 +35,21 @@
 
 #grid{
 width: 95vw;
+overflow: scroll;
+height: 80vh;
 background-color: red;
-height: 90vh;
-margin: 0 auto;
+margin: 5rem auto;
 border-radius: 30px;
-grid-template-columns: 1fr 2fr 2fr;
-grid-template-rows: repeat(3, 1fr);
-gap: 1.5rem;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+place-items: center;
+gap: 1rem;
+justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
 grid-template-areas: 
-"name projects projects"
-"tools projects projects"
-"contact contact contact";
+"daycares swampfest"
+"messiverse advertising";
 }
 
 section{
@@ -52,26 +57,30 @@ section{
   margin: 1rem;
 }
 
-.name{
-  grid-area: name;
+.daycares{
+  grid-area: daycares;
   background-color: aliceblue;
   border: 5px solid blue;
 }
 
-.projects{
-  grid-area: projects;
+.swampfest{
+  grid-area: swampfest;
   background-color: burlywood;
   border: 5px solid blue;
   
 }
 
-.tools{
-  grid-area: tools;
+.messiverse{
+  grid-area: messiverse;
+  background-color: magenta;
+  border: 5px solid blue;
 
 }
 
-.contact{
-  grid-area: contact;
+.advertising{
+  grid-area: advertising;
+  background-color: orange;
+  border: 5px solid blue;
 }
 
 
