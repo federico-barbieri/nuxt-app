@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>DAYCARES</h2>
+        <h2>Daycares</h2>
     
     </div>
 </template>
@@ -10,9 +10,20 @@
 </script>
 
 <style scoped>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 div{
-    width: 30vw;
-    height: 30vh;
+    width: 100vw;
+    height: 15vh;
+}
+
+h2{
+    font-family: var(--titleFont2);
+    font-size: 5rem;
 }
 
 </style>

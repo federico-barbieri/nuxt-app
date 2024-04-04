@@ -28,49 +28,52 @@
 
 <style scoped>
 
+body{
+  margin: 0 0;
+  padding: 0;
+}
+
 *{
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 #grid{
-width: 95vw;
-overflow: scroll;
-height: 80vh;
-background-color: red;
-margin: 5rem auto;
-border-radius: 30px;
-display: flex;
-flex-direction: column;
-justify-content: center; /* Center items horizontally */
-  align-items: center; /* Center items vertically */
+  width: 100vw;
+  overflow: hidden;
+  height: 95vh;
+  background-color: var(--nearWhite);
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+  align-items: center; 
 }
 
-section{
-  display: inline-block;
-  margin: 1rem;
-}
 
 .daycares{
-  background-color: aliceblue;
-  border: 5px solid blue;
+border-bottom: 5px solid black;
+width: 80%;
+margin: 0 auto 0 0;
 }
 
 .swampfest{
-  background-color: burlywood;
-  border: 5px solid blue;
-  
+border-bottom: 5px solid black;
+width: 80%;
+margin: 0 auto 0 0; 
 }
 
 .messiverse{
-  background-color: magenta;
-  border: 5px solid blue;
-
+  border-bottom: 5px solid black;
+  width: 80%;
+  margin: 0 auto 0 0; 
 }
 
 .advertising{
-  background-color: orange;
-  border: 5px solid blue;
+  border-bottom: 5px solid black;
+  width: 80%;
+  margin: 0 auto 0 0; 
 }
 
 

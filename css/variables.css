@@ -1,0 +1,12 @@
+/* righteous font */
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/* poller font */
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+
+
+:root{
+    --nearWhite: #F9F7F7;
+    --titleFont: 400 normal "Righteous", sans-serif;
+    --titleFont2: "Poller One", serif;
+}
