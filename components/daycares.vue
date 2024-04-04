@@ -19,7 +19,6 @@
 div{
     width: 100vw;
     height: 15vh;
-    transition: 0.5s all ease-in;
 }
 
 h2{

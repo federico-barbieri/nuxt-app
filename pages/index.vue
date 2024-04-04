@@ -49,39 +49,63 @@ body{
   margin: 2rem auto;
   display: flex;
   flex-direction: column;
-  justify-content: space-around; 
+  justify-content: center; 
   align-items: center; 
 }
 
 
 .daycares{
-border-bottom: 5px solid black;
-width: 80%;
-margin: 0 auto 0 0;
-transition: all 0.5s ease;
+  padding: 1rem 0;
+  width: 80%;
+  margin: 0 auto 0 0;
+  transition: all 0.5s ease;
+
 }
 
 .daycares:hover{
     color: #F9F7F7;
     background-color: #35354A;
+    border-bottom: 40px solid rgb(22, 21, 21);
+
 }
 
 .swampfest{
-border-bottom: 5px solid black;
+  padding: 1rem 0;
 width: 80%;
 margin: 0 auto 0 0; 
+transition: all 0.5s ease;
+}
+
+.swampfest:hover{
+    color: #F9F7F7;
+    background-color: #C4D303;
+    border-bottom: 40px solid rgb(22, 21, 21);
 }
 
 .messiverse{
-  border-bottom: 5px solid black;
+  padding: 1rem 0;
   width: 80%;
   margin: 0 auto 0 0; 
+  transition: all 0.5s ease;
+}
+
+.messiverse:hover{
+    color: #F9F7F7;
+    background-color: #42A4D1;
+    border-bottom: 40px solid rgb(22, 21, 21);
 }
 
 .advertising{
-  border-bottom: 5px solid black;
+  padding: 1rem 0;
   width: 80%;
   margin: 0 auto 0 0; 
+  transition: all 0.5s ease;
+}
+
+.advertising:hover{
+    color: #F9F7F7;
+    background-color: #6C0D0D;
+    border-bottom: 40px solid rgb(22, 21, 21);
 }
 
 
