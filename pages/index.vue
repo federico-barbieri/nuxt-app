@@ -40,16 +40,10 @@ height: 80vh;
 background-color: red;
 margin: 5rem auto;
 border-radius: 30px;
-display: grid;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 1fr 1fr;
-place-items: center;
-gap: 1rem;
+display: flex;
+flex-direction: column;
 justify-content: center; /* Center items horizontally */
   align-items: center; /* Center items vertically */
-grid-template-areas: 
-"daycares swampfest"
-"messiverse advertising";
 }
 
 section{
@@ -58,27 +52,23 @@ section{
 }
 
 .daycares{
-  grid-area: daycares;
   background-color: aliceblue;
   border: 5px solid blue;
 }
 
 .swampfest{
-  grid-area: swampfest;
   background-color: burlywood;
   border: 5px solid blue;
   
 }
 
 .messiverse{
-  grid-area: messiverse;
   background-color: magenta;
   border: 5px solid blue;
 
 }
 
 .advertising{
-  grid-area: advertising;
   background-color: orange;
   border: 5px solid blue;
 }
