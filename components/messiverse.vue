@@ -10,6 +10,7 @@
 </script>
 
 <style scoped>
+
 *{
   margin: 0;
   padding: 0;
@@ -22,7 +23,7 @@ div{
 }
 
 h2{
-    font-family: var(--titleFont2);
+    font-family: 'Lexend Exa', sans-serif;
     font-size: 5rem;
 }
 

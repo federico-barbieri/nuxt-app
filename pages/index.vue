@@ -28,6 +28,8 @@
 
 <style scoped>
 
+@import "../css/styles.css";
+
 body{
   margin: 0 0;
   padding: 0;
@@ -56,6 +58,12 @@ body{
 border-bottom: 5px solid black;
 width: 80%;
 margin: 0 auto 0 0;
+transition: all 0.5s ease;
+}
+
+.daycares:hover{
+    color: #F9F7F7;
+    background-color: #35354A;
 }
 
 .swampfest{

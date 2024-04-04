@@ -19,10 +19,11 @@
 div{
     width: 100vw;
     height: 15vh;
+    transition: 0.5s all ease-in;
 }
 
 h2{
-    font-family: var(--titleFont2);
+    font-family: 'Lexend Exa', sans-serif;
     font-size: 5rem;
 }
 
