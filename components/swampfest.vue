@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>Swampfest</h2>
+        <h2><nuxt-link to="swampfest">02. Swampfest</nuxt-link></h2>
     
     </div>
 </template>
@@ -24,6 +24,13 @@ div{
 h2{
     font-family: 'Lexend Exa', sans-serif;
     font-size: 5rem;
+}
+
+a{
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 5rem;
+    color: inherit;
+    text-decoration: none;
 }
 
 </style>

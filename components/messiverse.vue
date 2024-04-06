@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>Messiverse</h2>
+        <h2><nuxt-link to="messiverse">03. Messiverse</nuxt-link></h2>
     
     </div>
 </template>
@@ -25,6 +25,14 @@ div{
 h2{
     font-family: 'Lexend Exa', sans-serif;
     font-size: 5rem;
+}
+
+
+a{
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 5rem;
+    color: inherit;
+    text-decoration: none;
 }
 
 </style>

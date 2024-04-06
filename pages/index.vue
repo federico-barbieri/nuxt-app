@@ -31,7 +31,7 @@
 @import "../css/styles.css";
 
 body{
-  margin: 0 0;
+  margin: 0;
   padding: 0;
 }
 
@@ -44,13 +44,14 @@ body{
 #grid{
   width: 100vw;
   overflow: hidden;
-  height: 95vh;
+  height: 90vh;
   background-color: var(--nearWhite);
-  margin: 2rem auto;
+  margin: 0rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center; 
   align-items: center; 
+
 }
 
 
@@ -66,7 +67,7 @@ body{
     color: #F9F7F7;
     background-color: #35354A;
     border-bottom: 40px solid rgb(22, 21, 21);
-
+    cursor: pointer;
 }
 
 .swampfest{
@@ -80,6 +81,7 @@ transition: all 0.5s ease;
     color: #F9F7F7;
     background-color: #C4D303;
     border-bottom: 40px solid rgb(22, 21, 21);
+    cursor: pointer;
 }
 
 .messiverse{
@@ -93,6 +95,7 @@ transition: all 0.5s ease;
     color: #F9F7F7;
     background-color: #42A4D1;
     border-bottom: 40px solid rgb(22, 21, 21);
+    cursor: pointer;
 }
 
 .advertising{
@@ -106,6 +109,7 @@ transition: all 0.5s ease;
     color: #F9F7F7;
     background-color: #6C0D0D;
     border-bottom: 40px solid rgb(22, 21, 21);
+    cursor: pointer;
 }
 
 

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>Daycares</h2>
+        <h2><nuxt-link to="daycares">01. Daycares</nuxt-link></h2>
     
     </div>
 </template>
@@ -21,9 +21,11 @@ div{
     height: 15vh;
 }
 
-h2{
+a{
     font-family: 'Lexend Exa', sans-serif;
     font-size: 5rem;
+    color: inherit;
+    text-decoration: none;
 }
 
 </style>
