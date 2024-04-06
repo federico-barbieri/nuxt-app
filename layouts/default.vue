@@ -3,8 +3,8 @@
         <nav>
             <h1><nuxt-link to="/">Federico Barbieri</nuxt-link></h1>
             <ul>
-                <li>About</li>
-                <li>Contact</li>
+                <li><nuxt-link to="about">About</nuxt-link></li>
+                <li><nuxt-link to="contact">Contact</nuxt-link></li>
             </ul>
         </nav>
         <slot></slot>
