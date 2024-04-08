@@ -125,13 +125,38 @@ body{
   padding: 1rem 0;
   width: 80%;
   margin: 0 auto 0 0; 
-  transition: all 0.5s ease;
+  position: relative; /* Add this line */
+}
+
+.messiverse::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("../public/projectsImgs/messi2.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: -1;
+}
+
+.messiverse:hover::before {
+  opacity: 0.5;
+}
+
+.messiverse:hover {
+  color: #f9f7f7;
+  background-color: rgba(196, 211, 3, 0.5);
+  cursor: pointer;
 }
 
 .messiverse:hover{
     color: #F9F7F7;
-    background-color: #42A4D1;
-    border-bottom: 40px solid rgb(22, 21, 21);
+    background-color: rgba(66, 164, 209, 0.5);
     cursor: pointer;
 }
 
