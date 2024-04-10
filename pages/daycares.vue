@@ -6,7 +6,7 @@
                 <p>This project aims to answer whether Waitly.dk, a danish startup currently
                     established only in the real estate category, can get into the daycare sector
                     in a way that is sustainable and profitable.
-                    The project is based on the thought that Waitly's model for
+                    The project is based on the thought that Waitly's model of
                     real estate waiting lists can be replicated for daycares.
                 </p>
             </div>
@@ -21,8 +21,8 @@
                     </ul>
                 </div>
                 <div class="titleLinks">
-                    <span><a href=""><img class="githubLogo" src="../public/icons/github.png" alt=""></a></span>
-                    <span><a href="https://reborn-daycares-federico-barbieri.vercel.app" target="_blank">Visit site &#8594;</a></span>
+                    <span><a href="https://github.com/federico-barbieri/daycaresInNuxt" target="_blank"><img class="githubLogo" src="../public/icons/github.png" alt=""></a></span>
+                    <span><a class="visitSite" href="https://reborn-daycares-federico-barbieri.vercel.app" target="_blank">Visit site &#8594;</a></span>
                 </div>
             </div>
         </section>
@@ -31,7 +31,22 @@
 
         <section class="description">
             <img class="img" src="../public/images/daycares/reborn_violet.png" alt="Logo of Reborn, a subbrand created for Waitly">
-            <p>Imagining how Waitly.dk could get into the daycare category in Copenhagen.</p>
+            <p class="rebornDescription">Rebørn is an initiative by Waitly.dk. 
+                Its name comes from <strong><em>reimagining</em></strong> how parents can access 
+                waiting lists combined with <strong><em>børn</em></strong>, the word for "children" in Danish. 
+                Its purpose is to make the daycare category more accessible and transparent,
+                just like Waitly does for real estate associations.
+            </p>
+
+            <div class="descriptionGrid">
+                <img class="firstScreen" src="../public/images/daycares/rebornFirstScreen.png" alt="aaaa">
+                <p class="triangulationDescription">During the research phase, I triangulated the user's needs and pain points,
+                    the daycare's potential usecase and which technologies to use.
+                </p>
+                <img class="persona" src="../public/images/daycares/persona.png" alt="">
+                <img class="flow" src="../public/images/daycares/flow.png" alt="">
+
+            </div>
 
         </section>
 
@@ -61,7 +76,7 @@ a{
     padding-bottom: 0;
 }
 
-a:hover{
+.visitSite:hover{
     padding-bottom: 0.2rem;
     border-bottom: 2px solid #35354A;
 }
@@ -96,7 +111,7 @@ p{
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: last baseline;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -149,6 +164,17 @@ p{
     padding-right: 1rem;
 }
 
+.githubLogo{
+    width: 6rem;
+    padding-right: 1rem;
+    transition: all 0.5s ease-in;
+}
+
+.githubLogo:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 2px #35354A);
+}
+
 /* DESCRIPTION */
 
 .description{
@@ -166,15 +192,42 @@ p{
     margin: 0 auto;
 }
 
-.githubLogo{
-    width: 6rem;
-    padding-right: 1rem;
-    transition: all 0.5s ease-in;
+.rebornDescription{
+    width: 50%;
+    text-align: left;
+    margin: 2rem auto 5rem 0;
 }
 
-.githubLogo:hover{
-    transform: scale(1.1);
-    filter: drop-shadow(2px 2px 2px #35354A);
+/* DESCRIPTION GRID */
+
+.descriptionGrid{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.firstScreen{
+    max-width: 100%;
+}
+
+.triangulationDescription{
+    width: 50%;
+    text-align: left;
+    margin: 2rem 0 5rem auto;
+}
+
+.persona{
+    grid-area: persona;
+    max-width: 50%;
+
+}
+
+.flow{
+    grid-area: flow;
+    max-width: 50%;
+
 }
 
 
