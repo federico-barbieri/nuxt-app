@@ -36,7 +36,7 @@ nav{
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 ul{

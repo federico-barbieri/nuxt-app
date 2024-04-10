@@ -11,18 +11,19 @@
                 </p>
             </div>
 
-            <div class="titleTools">
-                <p>Built with:</p>
-                <ul>
-                    <li>Nuxt 3</li>
-                    <li>Supabase</li>
-                    <li>Tailwind</li>
-                    <li>Mapbox</li>
-                </ul>
-            </div>
-            <div class="titleLinks">
-                <span>Github link</span>
-                <span>Visit site</span>
+            <div class="toolsAndLinks">
+                <div class="titleTools">
+                    <p>Built with:</p>
+                    <ul>
+                        <li><img class="toolLogo nuxtLogo" src="../public/icons/nuxtjs.png" alt=""></li>
+                        <li><img class="toolLogo supabaseLogo" src="../public/icons/supabase.png" alt=""></li>
+                        <li><img class="toolLogo nuxtLogo tailwindLogo" src="../public/icons/tailwind.png" alt=""></li>
+                    </ul>
+                </div>
+                <div class="titleLinks">
+                    <span><a href=""><img class="githubLogo" src="../public/icons/github.png" alt=""></a></span>
+                    <span><a href="https://reborn-daycares-federico-barbieri.vercel.app" target="_blank">Visit site &#8594;</a></span>
+                </div>
             </div>
         </section>
 
@@ -53,8 +54,19 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease-in;
+    padding-bottom: 0;
+}
+
+a:hover{
+    padding-bottom: 0.2rem;
+    border-bottom: 2px solid #35354A;
+}
+
 main{
-    background-color: blanchedalmond;
     width: 80%;
     margin: 0 auto;
     height: auto;
@@ -80,6 +92,14 @@ p{
     font-family: "Poppins", sans-serif;
 }
 
+.toolsAndLinks{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: last baseline;
+    justify-content: space-between;
+}
+
 .titleTools{
     width: 100%;
     display: flex;
@@ -91,9 +111,28 @@ p{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     list-style: none;
     width: 50%;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.toolLogo{
+    width: 6rem;
+    padding-right: 1rem;
+    transition: all 0.5s ease-in;
+}
+
+.toolLogo:hover{
+    filter: drop-shadow(2px 2px 2px #35354A);
+}
+
+.supabaseLogo{
+    width: 2.5rem;
 }
 
 .titleLinks{
@@ -101,8 +140,9 @@ p{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: flex-end;
     margin: 2rem auto;
+    height: 100%;
 }
 
 .titleLinks span{
@@ -124,6 +164,17 @@ p{
     max-width: 100%;
     display: block;
     margin: 0 auto;
+}
+
+.githubLogo{
+    width: 6rem;
+    padding-right: 1rem;
+    transition: all 0.5s ease-in;
+}
+
+.githubLogo:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 2px #35354A);
 }
 
 
