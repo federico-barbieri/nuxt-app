@@ -3,11 +3,10 @@
         <section class="title">
             <div class="titleMain">
                 <h1>Multimedia Design's final project at KEA</h1>
-                <p>This project aims to answer whether <span class="waitly"><a href="https://waitly.dk/" target="_blank">Waitly.dk</a></span>, a danish startup currently
-                    established only in the real estate category, can get into the daycare sector
-                    in a way that is sustainable and profitable.
-                    The project is based on the thought that Waitly's model of
-                    real estate waiting lists can be replicated for daycares.
+                <p>This project explores the idea of whether 
+                    <span class="waitly"><a href="https://waitly.dk/" target="_blank">Waitly.dk</a></span>, 
+                    a danish startup whose business model spins around waiting lists for real estate, 
+                    can replicate it in the daycare sector in a sustainable and profitable way.
                 </p>
             </div>
 
@@ -15,13 +14,31 @@
                 <div class="titleTools">
                     <p>Built with:</p>
                     <ul>
-                        <li><img class="toolLogo nuxtLogo" src="../public/icons/nuxtjs.png" alt=""></li>
-                        <li><img class="toolLogo supabaseLogo" src="../public/icons/supabase.png" alt=""></li>
-                        <li><img class="toolLogo nuxtLogo tailwindLogo" src="../public/icons/tailwind.png" alt=""></li>
+                        <li>
+                            <UTooltip text="Nuxt 3" :popper="{ placement: 'top' }">
+                                <img class="toolLogo nuxtLogo" src="../public/icons/nuxtjs.png" alt="">
+                            </UTooltip>
+                        </li>
+                        <li>
+                            <UTooltip text="Supabase" :popper="{ placement: 'top' }">
+                                <img class="toolLogo supabaseLogo" src="../public/icons/supabase.png" alt="">
+                            </UTooltip>
+                        </li>
+                        <li>
+                            <UTooltip text="Tailwind" :popper="{ placement: 'top' }">
+                                <img class="toolLogo tailwindLogo" src="../public/icons/tailwind.png" alt="">
+                            </UTooltip>
+                        </li>
                     </ul>
                 </div>
                 <div class="titleLinks">
-                    <span><a href="https://github.com/federico-barbieri/daycaresInNuxt" target="_blank"><img class="githubLogo" src="../public/icons/github.png" alt=""></a></span>
+                    <span>
+                        <a href="https://github.com/federico-barbieri/daycaresInNuxt" target="_blank">
+                            <UTooltip text="Github" :popper="{ placement: 'top' }">
+                                <img class="githubLogo" src="../public/icons/github.png" alt="">
+                            </UTooltip>
+                        </a>
+                    </span>
                     <span><a class="visitSite" href="https://reborn-daycares-federico-barbieri.vercel.app" target="_blank">Visit site &#8594;</a></span>
                 </div>
             </div>
@@ -32,20 +49,22 @@
         <section class="description">
             <img class="img" src="../public/images/daycares/reborn_violet.png" alt="Logo of Reborn, a subbrand created for Waitly">
             <p class="rebornDescription">Rebørn is an initiative by Waitly.dk. 
-                Its name comes from <strong><em>reimagining</em></strong> how parents can access 
-                waiting lists combined with <strong><em>børn</em></strong>, the word for "children" in Danish. 
+                Its name comes from <strong><em>reimagining</em></strong> how parents can access daycare
+                waiting lists, combined with <strong><em>børn</em></strong>, the word for "children" in Danish. 
                 Its purpose is to make the daycare category more accessible and transparent,
                 just like Waitly does for real estate associations.
             </p>
 
             <div class="descriptionGrid">
                 <img class="firstScreen" src="../public/images/daycares/rebornFirstScreen.png" alt="aaaa">
-                <p class="triangulationDescription">During the research phase, I triangulated the user's needs and pain points,
-                    the daycare's potential usecase and which technologies to use.
+                <p class="triangulationDescription">During the research phase, 
+                    I interviewed parents that live in Copenhagen to understand their needs and pain points.
+                    I also conducted interviews with daycare leaders to understand how their waiting list systems worked
+                    and how they could be improved.
                 </p>
                 <div class="personaAndFlow">
-                    <img class="flow" src="../public/images/daycares/flow.png" alt="">
                     <img class="persona" src="../public/images/daycares/persona.png" alt="">
+                    <img class="flow" src="../public/images/daycares/flow.png" alt="">
                 </div>
 
             </div>
@@ -95,10 +114,24 @@
                     display the daycare's details and the possibility 
                     of adding children to their waiting list.
                 </p>
+
+                <img class="daycarePanel" src="../public/images/daycares/visits.png" alt="">
+
                 <p class="visitingDescription">
                     Additionaly, the parents can plan a visit through the platform and receive a confirmation
                     straight into their emails.
                 </p>
+
+                <img class="calendlyPanel" src="../public/images/daycares/visits2.png" alt="">
+            </div>
+
+            <div class="subscriptionsDiv">
+                <p class="subscriptionsDescription">
+                    In the last tab, the user can see a list of all the daycares
+                    they are subscribed to, and the amount of money it represents anually.
+                </p>
+
+                <img src="../public/images/daycares/subscriptions.png" alt="">
             </div>
             
 
@@ -265,7 +298,7 @@ span{
 .rebornDescription{
     width: 50%;
     text-align: left;
-    margin: 2rem auto 5rem 0;
+    margin: 5rem auto 5rem 0;
 }
 
 /* DESCRIPTION GRID */
@@ -285,7 +318,7 @@ span{
 .triangulationDescription{
     width: 50%;
     text-align: left;
-    margin: 2rem 0 5rem auto;
+    margin: 5rem 0 5rem auto;
 }
 
 .personaAndFlow{
@@ -438,6 +471,30 @@ span{
 .visitingDescription{
     max-width: 50%;
     margin: 5rem 0 5rem auto;
+}
+
+.daycarePanel{
+    max-width: 70%;
+    margin: 2rem 0 2rem auto;
+}
+
+.calendlyPanel{
+    max-width: 70%;
+    margin: 2rem 0 2rem auto; 
+}
+
+.subscriptionsDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.subscriptionsDescription{
+    max-width: 50%;
+    margin: 5rem auto 5rem 0;
 }
 
 
