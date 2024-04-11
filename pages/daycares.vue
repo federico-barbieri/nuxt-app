@@ -132,16 +132,10 @@
                 </p>
 
                 <img src="../public/images/daycares/subscriptions.png" alt="">
+
+                <span class="nextProject"><nuxt-link to="swampfest">Next project &#8594;</nuxt-link></span>
+
             </div>
-            
-
-            <ul>
-                <li>Authentication &#8594; Nuxt Supabase</li>
-                <li>UI &#8594; Nuxt UI</li>
-                <li>Plan visits to daycares &#8594; Nuxt Calendly</li>
-                <li>Display map &#8594; Nuxt Mapbox</li>
-            </ul>
-
         </section>
     </main>
 </template>
@@ -489,12 +483,25 @@ span{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin: 0 auto;
+    margin: 0 auto 5rem auto;
 }
 
 .subscriptionsDescription{
     max-width: 50%;
     margin: 5rem auto 5rem 0;
+}
+
+.nextProject{
+    display: block;
+    margin: 5rem 0 0 auto;
+    padding-bottom: 0.2rem;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease-in;
+}
+
+.nextProject:hover{
+    border-bottom: 2px solid #35354A;
 }
 
 
