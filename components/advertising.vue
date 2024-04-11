@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2><nuxt-link to="advertising">04. Advertising</nuxt-link></h2>
+        <h2><nuxt-link to="advertising">04. Experimentarium</nuxt-link></h2>
     
     </div>
 </template>

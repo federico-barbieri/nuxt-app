@@ -3,7 +3,7 @@
         <section class="title">
             <div class="titleMain">
                 <h1>Multimedia Design's final project at KEA</h1>
-                <p>This project aims to answer whether Waitly.dk, a danish startup currently
+                <p>This project aims to answer whether <span class="waitly"><a href="https://waitly.dk/" target="_blank">Waitly.dk</a></span>, a danish startup currently
                     established only in the real estate category, can get into the daycare sector
                     in a way that is sustainable and profitable.
                     The project is based on the thought that Waitly's model of
@@ -66,7 +66,7 @@
 
                 <p class="dashboardDescription">
                     Once the user is authenticated through Supabase's One Time Password, it can access 
-                    a panel with three main tabs: children profiles, daycares and subscriptions.
+                    a panel with three main tabs: <strong>children profiles, daycares and subscriptions</strong>.
 
                 </p>
 
@@ -75,10 +75,30 @@
             </div>
 
             <div class="nuxtModulesImgs">
+
+                <p class="daycaresDescription">
+                    In the <strong>daycares' tab</strong>, 
+                    the user can filter through 
+                    the daycares by area, see them on a map,
+                    and calculate the distance to their home.
+                </p>
                 <img class="filters" src="../public/images/daycares/filters.png" alt="">
                 <img class="map" src="../public/images/daycares/map.png" alt="">
                 <img class="distance" src="../public/images/daycares/distance.png" alt="">
 
+            </div>
+
+            <div class="visitingDiv">
+
+                <p class="visitingIntro">
+                    When the user picks a daycare, a pop up will
+                    display the daycare's details and the possibility 
+                    of adding children to their waiting list.
+                </p>
+                <p class="visitingDescription">
+                    Additionaly, the parents can plan a visit through the platform and receive a confirmation
+                    straight into their emails.
+                </p>
             </div>
             
 
@@ -151,6 +171,10 @@ p{
 
 span{
     font-family: "Poppins", sans-serif;
+}
+
+.waitly:hover{
+    text-decoration: underline 1px solid #35354A;
 }
 
 .toolsAndLinks{
@@ -374,6 +398,11 @@ span{
     margin: 2rem auto 5rem 0;
 }
 
+.daycaresDescription{
+    max-width: 50%;
+    margin: 5rem 0 5rem auto;
+}
+
 /* NUXT MODULES IMGS */
 
 .nuxtModulesImgs{
@@ -387,7 +416,28 @@ span{
 
 .nuxtModulesImgs img{
     max-width: 70%;
-    margin: 2rem auto;
+    margin: 2rem auto 2rem 0;
+}
+
+/* PLANNING A VISIT */
+
+.visitingDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.visitingIntro{
+    max-width: 50%;
+    margin: 5rem auto 5rem 0;
+}
+
+.visitingDescription{
+    max-width: 50%;
+    margin: 5rem 0 5rem auto;
 }
 
 

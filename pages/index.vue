@@ -57,9 +57,11 @@ body{
 
 .daycares {
   padding: 1rem 0;
-  width: 80%;
+  width: 100%;
   margin: 0 auto 0 0;
-  position: relative; /* Add this line */
+  position: relative;
+  transition: padding 0.5s ease, background-color 0.5s ease;
+
 }
 
 .daycares::before {
@@ -76,6 +78,7 @@ body{
   opacity: 0;
   transition: opacity 0.5s ease;
   z-index: -1;
+  width: 100%;
 }
 
 .daycares:hover::before {
@@ -84,15 +87,19 @@ body{
 
 .daycares:hover {
   color: #f9f7f7;
-  background-color: rgba(53, 53, 74, 0.5);
   cursor: pointer;
+  padding-bottom: 8rem;
+  background-color: rgba(53, 53, 74, 0.5);
+
 }
 
 .swampfest {
   padding: 1rem 0;
-  width: 80%;
+  width: 100%;
   margin: 0 auto 0 0;
   position: relative; /* Add this line */
+  transition: padding 0.5s ease, background-color 0.5s ease;
+
 }
 
 .swampfest::before {
@@ -109,6 +116,7 @@ body{
   opacity: 0;
   transition: opacity 0.5s ease;
   z-index: -1;
+  width: 100%;
 }
 
 .swampfest:hover::before {
@@ -117,15 +125,19 @@ body{
 
 .swampfest:hover {
   color: #f9f7f7;
-  background-color: rgba(196, 211, 3, 0.5);
   cursor: pointer;
+  padding-bottom: 8rem;
+  background-color: rgba(196, 211, 3, 0.5);
+
 }
 
 .messiverse{
   padding: 1rem 0;
-  width: 80%;
+  width: 100%;
   margin: 0 auto 0 0; 
   position: relative; /* Add this line */
+  transition: padding 0.5s ease, background-color 0.5s ease;
+
 }
 
 .messiverse::before {
@@ -142,22 +154,19 @@ body{
   opacity: 0;
   transition: opacity 0.5s ease;
   z-index: -1;
+  width: 100%;
+
 }
 
 .messiverse:hover::before {
   opacity: 0.5;
 }
 
-.messiverse:hover {
-  color: #f9f7f7;
-  background-color: rgba(196, 211, 3, 0.5);
-  cursor: pointer;
-}
-
 .messiverse:hover{
     color: #F9F7F7;
-    background-color: rgba(66, 164, 209, 0.5);
     cursor: pointer;
+    padding-bottom: 8rem;
+    background-color: rgba(66, 164, 209, 0.5);
 }
 
 .advertising{
