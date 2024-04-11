@@ -61,7 +61,33 @@
                 <span class="violet">#35354A</span>
 
             </div>
-            <p>Nuxt Calendly, Nuxt UI, Nuxt Mapbox, Nuxt Supabase</p>
+            <div class="dashboardSection">
+                <h2>The Dashboard</h2>
+
+                <p class="dashboardDescription">
+                    Once the user is authenticated through Supabase's One Time Password, it can access 
+                    a panel with three main tabs: children profiles, daycares and subscriptions.
+
+                </p>
+
+                <img class="dashboard" src="../public/images/daycares/dashboard.png" alt="">
+
+            </div>
+
+            <div class="nuxtModulesImgs">
+                <img class="filters" src="../public/images/daycares/filters.png" alt="">
+                <img class="map" src="../public/images/daycares/map.png" alt="">
+                <img class="distance" src="../public/images/daycares/distance.png" alt="">
+
+            </div>
+            
+
+            <ul>
+                <li>Authentication &#8594; Nuxt Supabase</li>
+                <li>UI &#8594; Nuxt UI</li>
+                <li>Plan visits to daycares &#8594; Nuxt Calendly</li>
+                <li>Display map &#8594; Nuxt Mapbox</li>
+            </ul>
 
         </section>
     </main>
@@ -113,7 +139,17 @@ h1{
     margin: 0 auto 1rem auto;
 }
 
+h2{
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 1.5rem;
+    margin: 0 auto 1rem 0;
+}
+
 p{
+    font-family: "Poppins", sans-serif;
+}
+
+span{
     font-family: "Poppins", sans-serif;
 }
 
@@ -239,7 +275,6 @@ p{
 .persona{
     max-width: 80%;
     margin: 0 auto 2rem 0;
-
 }
 
 .flow{
@@ -324,6 +359,35 @@ p{
     color: #FFFFFF;
     margin-top: 60rem;
     border-radius: 50%;
+}
+
+/* DASHBOARD */
+
+.dashboardSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboardDescription{
+    max-width: 50%;
+    margin: 2rem auto 5rem 0;
+}
+
+/* NUXT MODULES IMGS */
+
+.nuxtModulesImgs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.nuxtModulesImgs img{
+    max-width: 70%;
+    margin: 2rem auto;
 }
 
 
