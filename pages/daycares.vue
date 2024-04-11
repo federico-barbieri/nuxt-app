@@ -43,14 +43,24 @@
                 <p class="triangulationDescription">During the research phase, I triangulated the user's needs and pain points,
                     the daycare's potential usecase and which technologies to use.
                 </p>
-                <img class="persona" src="../public/images/daycares/persona.png" alt="">
-                <img class="flow" src="../public/images/daycares/flow.png" alt="">
+                <div class="personaAndFlow">
+                    <img class="flow" src="../public/images/daycares/flow.png" alt="">
+                    <img class="persona" src="../public/images/daycares/persona.png" alt="">
+                </div>
 
             </div>
 
         </section>
 
         <section class="nuxtModules">
+            <div class="colorPalette">
+                <span class="blue">#3b82f6</span>
+                <span class="white">#FFFFFF</span>
+                <span class="green">#7CCC7F</span>
+                <span class="nearWhite">#F3F4F6</span>
+                <span class="violet">#35354A</span>
+
+            </div>
             <p>Nuxt Calendly, Nuxt UI, Nuxt Mapbox, Nuxt Supabase</p>
 
         </section>
@@ -218,17 +228,94 @@ p{
     margin: 2rem 0 5rem auto;
 }
 
+.personaAndFlow{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .persona{
-    grid-area: persona;
-    max-width: 50%;
+    max-width: 80%;
+    margin: 0 auto 2rem 0;
 
 }
 
 .flow{
-    grid-area: flow;
-    max-width: 50%;
-
+    max-width: 80%;
+    margin: 0 0 2rem auto;
 }
+
+/* COLOR PALETTE */
+
+.colorPalette{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5rem auto;
+    font-family: "Poppins", sans-serif;
+}
+
+.colorPalette span{
+    transition: all 0.5s ease-in;
+}
+
+.colorPalette span:hover{
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 2px #35354A);
+}
+
+.blue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: #3b82f6;
+    width: 12rem;
+    height: 15rem;
+}
+
+.white{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    width: 12rem;
+    height: 15rem;
+}
+
+.green{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: #7CCC7F;
+    width: 12rem;
+    height: 15rem;
+}
+
+.nearWhite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3F4F6;
+    width: 12rem;
+    height: 15rem;
+}
+
+.violet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #35354A;
+    width: 12rem;
+    height: 15rem;
+    color: #FFFFFF;
+}
+
 
 
 </style>
