@@ -253,7 +253,7 @@ p{
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: start;
     justify-content: space-around;
     margin: 5rem auto;
     font-family: "Poppins", sans-serif;
@@ -274,8 +274,9 @@ p{
     justify-content: center;
     color: #FFFFFF;
     background-color: #3b82f6;
-    width: 12rem;
+    width: 15rem;
     height: 15rem;
+    border-radius: 50%;
 }
 
 .white{
@@ -283,8 +284,11 @@ p{
     align-items: center;
     justify-content: center;
     background-color: #FFFFFF;
-    width: 12rem;
+    width: 15rem;
     height: 15rem;
+    margin-top: 15rem;
+    border-radius: 50%;
+    border: 1px solid #35354A;
 }
 
 .green{
@@ -293,8 +297,10 @@ p{
     justify-content: center;
     color: #FFFFFF;
     background-color: #7CCC7F;
-    width: 12rem;
+    width: 15rem;
     height: 15rem;
+    margin-top: 30rem;
+    border-radius: 50%;
 }
 
 .nearWhite{
@@ -302,8 +308,10 @@ p{
     align-items: center;
     justify-content: center;
     background-color: #F3F4F6;
-    width: 12rem;
+    width: 15rem;
     height: 15rem;
+    margin-top: 45rem;
+    border-radius: 50%;
 }
 
 .violet{
@@ -311,9 +319,11 @@ p{
     align-items: center;
     justify-content: center;
     background-color: #35354A;
-    width: 12rem;
+    width: 15rem;
     height: 15rem;
     color: #FFFFFF;
+    margin-top: 60rem;
+    border-radius: 50%;
 }
 
 
