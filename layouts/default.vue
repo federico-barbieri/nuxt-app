@@ -15,7 +15,7 @@
             
             <div class="some">
                 <a href="https://www.linkedin.com/in/fedebarbieri" aria-label="Check Federico's LinkedIn profile" target="_blank">
-                    <img loading="lazy" class="linkedin" src="../public/icons/linkedin2.png" alt="LinkedIn logo">
+                    <img loading="lazy" class="github" src="../public/icons/linkedin.png" alt="LinkedIn logo">
                 </a>
                     
                 <a href="https://github.com/federico-barbieri" aria-label="Check Federico's Github profile" target="_blank">

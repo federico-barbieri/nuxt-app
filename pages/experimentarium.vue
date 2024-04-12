@@ -2,7 +2,7 @@
     <main>
         <section class="title">
             <div class="titleMain">
-                <h1>A sandbox to experiment with tools and ideas</h1>
+                <h1 id="top">A sandbox to experiment with tools and ideas</h1>
                 <p>From immersive experiences to AI generated content. Here you'll find 
                     a collection of projects that I've been working on.
                 </p>
@@ -35,6 +35,11 @@
                         <li>
                             <UTooltip text="After Effects" :popper="{ placement: 'top' }">
                                 <img class="toolLogo nuxtLogo" src="../public/icons/ae.png" alt="After Effects icon" />
+                            </UTooltip>
+                        </li>
+                        <li>
+                            <UTooltip text="Premiere" :popper="{ placement: 'top' }">
+                                <img class="toolLogo" src="../public/icons/pr.png" alt="Premiere icon" />
                             </UTooltip>
                         </li>
                         <li>
@@ -140,36 +145,145 @@
 
             </div>
 
-            <div class="visitingDiv">
-
-                <p class="visitingIntro">
-                    When the user picks a daycare, a pop up will
-                    display the daycare's details and the possibility 
-                    of adding children to their waiting list.
-                </p>
-
-                <img class="daycarePanel" src="../public/images/daycares/visits.webp" alt="Daycares' tab in the dashboard" />
-
-                <p class="visitingDescription">
-                    Additionaly, the parents can plan a visit through the platform and receive a confirmation
-                    straight into their emails.
-                </p>
-
-                <img class="calendlyPanel" src="../public/images/daycares/visits2.webp" alt="Calendly's nuxt module dashboard" />
-                
-            </div>
+           
 
             <div class="subscriptionsDiv">
-                <p class="subscriptionsDescription">
-                    In the last tab, the user can see a list of all the daycares
-                    they are subscribed to, and the amount of money it represents anually.
+                
+
+                <span class="backToTop"><nuxt-link to="#top">Back to top &uarr;</nuxt-link></span>
+
+            </div>
+        </section>
+
+        <!-- COPENHAGEN CARTEL -->
+
+        <section class="description">
+
+            <h2>Copenhagen Cartel</h2>
+
+            <div class="toolsAndLinks">
+                <div class="titleTools">
+                    <p>Built with:</p>
+                    <ul>
+                        <li>
+                            <UTooltip text="Three js" :popper="{ placement: 'top' }">
+                                <img class="toolLogo" src="../public/icons/three.png" alt="Three js icon" />
+                            </UTooltip>
+                        </li>
+                        <li>
+                            <UTooltip text="JavaScript" :popper="{ placement: 'top' }">
+                                <img class="toolLogo" src="../public/icons/js.svg" alt="JavaScript icon" />
+                            </UTooltip>
+                        </li>
+                        <li>
+                            <UTooltip text="Vite" :popper="{ placement: 'top' }">
+                                <img class="toolLogo" src="../public/icons/vitejs.png" alt="Vite js icon" />
+                            </UTooltip>
+                        </li>
+                    </ul>
+                </div>
+                <div class="titleLinks">
+                    <span>
+                        <a href="https://github.com/federico-barbieri/Messiverse" target="_blank">
+                            <UTooltip text="Github" :popper="{ placement: 'top' }">
+                                <img class="githubLogo" src="../public/icons/github.png" alt="Github icon" />
+                            </UTooltip>
+                        </a>
+                    </span>
+                    <span><a class="visitSite" href="https://the-messiverse.vercel.app/" target="_blank">Visit site &#8594;</a></span>
+                </div>
+            </div>
+
+
+            <img class="firstScreen" src="../public/images/experimentarium/messiverse/bosch.png" alt="AI generated content by Hieronymous Bosch" />
+
+
+            <p class="rebornDescription">The Messiverse is an attempt to explore how different historical artists
+                would depict Argentina winning the World Cup 2022. From Da Vinci to Baskiat, the possibilities are endless.
+            </p>
+
+            <div class="descriptionGrid">
+                <img class="img" loading="lazy" src="../public/images/experimentarium/messiverse/messiverseCover.png" alt="Cover of The Messiverse, an AI generated project" />
+                <p class="triangulationDescription">During the research phase, 
+                    I interviewed parents that live in Copenhagen to understand their needs and pain points.
+                    I also conducted interviews with daycare leaders to understand how their waiting list systems worked
+                    and how they could be improved.
+                </p>
+                <div class="personaAndFlow">
+                    <img loading="lazy" class="persona" src="../public/images/experimentarium/messiverse/amaral.png" alt="AI generated content by Tarsila do Amaral" />
+                    <img loading="lazy" class="flow" src="../public/images/experimentarium/messiverse/miyazaki.png" alt="AI generated content by Hazao Miyazaki" />
+                    <img loading="lazy" class="persona" src="../public/images/experimentarium/messiverse/dali.png" alt="AI generated content by Salvador Dali" />
+                    <img loading="lazy" class="flow" src="../public/images/experimentarium/messiverse/magritte.png" alt="AI generated content by Rene Magritte" />
+
+                </div>
+
+            </div>
+
+            </section>
+
+            <section class="nuxtModules">
+
+            <div class="dashboardSection">
+                <h2>Next steps</h2>
+
+                <p class="dashboardDescription">
+                    The inevitable next step was to animate all of this content and see where it would lead me.
+
                 </p>
 
-                <img src="../public/images/daycares/subscriptions.webp" alt="Subscriptions' tab in the dashboard" />
-                
+            </div>
+
+            <div class="nuxtModulesImgs">
+
+                <video
+                    loading="lazy"
+                    poster="../public/images/experimentarium/messiverse/poster4.png"
+                    class="video4" 
+                    controls
+                    >
+                    <source src="../public/images/experimentarium/messiverse/video4.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                </video>
+
+                <video
+                    loading="lazy"
+                    poster="../public/images/experimentarium/messiverse/poster2.png"
+                    class="video2" 
+                    controls
+                    >
+                    <source src="../public/images/experimentarium/messiverse/video2.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                </video>
+
+                <video
+                    loading="lazy"
+                    poster="../public/images/experimentarium/messiverse/poster5.png"
+                    class="video5" 
+                    controls
+                    >
+                    <source src="../public/images/experimentarium/messiverse/video5.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                </video>
+
+                <video
+                    loading="lazy"
+                    poster="../public/images/experimentarium/messiverse/poster1.png"
+                    class="video1" 
+                    controls
+                    >
+                    <source src="../public/images/experimentarium/messiverse/video1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                </video>
+
+
+            </div>
+
+
+
+            <div class="subscriptionsDiv">
                 
 
-                <span class="nextProject"><nuxt-link to="swampfest">Next project &#8594;</nuxt-link></span>
+                <span class="backToTop"><nuxt-link to="#top">Back to top &uarr;</nuxt-link></span>
 
             </div>
         </section>
@@ -307,6 +421,7 @@ span{
 .toolLogo:hover{
     filter: drop-shadow(2px 2px 2px #35354A);
 }
+
 
 .supabaseLogo{
     width: 2.5rem;
@@ -545,7 +660,7 @@ span{
     margin: 5rem auto 5rem 0;
 }
 
-.nextProject{
+.backToTop{
     display: block;
     margin: 5rem 0 0 auto;
     padding-bottom: 0.2rem;
@@ -554,7 +669,8 @@ span{
     transition: all 0.3s ease-in;
 }
 
-.nextProject:hover{
+.backToTop:hover{
+    cursor: pointer;
     border-bottom: 2px solid #35354A;
 }
 
