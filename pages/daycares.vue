@@ -123,7 +123,7 @@
                     straight into their emails.
                 </p>
 
-                <nuxtImg class="calendlyPanel" src="../public/images/daycares/visits2.webp" alt="Calendly's nuxt module dashboard" />
+                <nuxtPicture class="calendlyPanel" src="../public/images/daycares/visits2.webp" alt="Calendly's nuxt module dashboard" />
                 
             </div>
 
