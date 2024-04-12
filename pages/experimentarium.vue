@@ -155,6 +155,9 @@
             </div>
         </section>
 
+        <hr class="firstDivider">
+
+
         <!-- COPENHAGEN CARTEL -->
 
         <section class="description">
@@ -184,36 +187,37 @@
                 </div>
                 <div class="titleLinks">
                     <span>
-                        <a href="https://github.com/federico-barbieri/Messiverse" target="_blank">
+                        <a href="https://github.com/federico-barbieri/cph-cartel-scroll" target="_blank">
                             <UTooltip text="Github" :popper="{ placement: 'top' }">
                                 <img class="githubLogo" src="../public/icons/github.png" alt="Github icon" />
                             </UTooltip>
                         </a>
                     </span>
-                    <span><a class="visitSite" href="https://the-messiverse.vercel.app/" target="_blank">Visit site &#8594;</a></span>
+                    <span><a class="visitSite" href="https://cphcartel.netlify.app/" target="_blank">Visit site &#8594;</a></span>
                 </div>
             </div>
 
 
-            <img class="firstScreen" src="../public/images/experimentarium/messiverse/bosch.png" alt="AI generated content by Hieronymous Bosch" />
+            <img class="firstScreen" src="../public/images/cartel/plastic.webp" alt="Cover image for Copenhagen Cartel" />
 
 
-            <p class="rebornDescription">The Messiverse is an attempt to explore how different historical artists
-                would depict Argentina winning the World Cup 2022. From Da Vinci to Baskiat, the possibilities are endless.
+            <p class="rebornDescription">
+                As a user, it's easy to stand behind noble causes. Fighting against ocean pollution is one of them.
+                But it's not easy to translate these values into actions. <br><br>
+
+                For this reason, we literally asked the consumers how deep they were willing to go in order to understand
+                the magnitude of the situation.
             </p>
 
             <div class="descriptionGrid">
-                <img class="img" loading="lazy" src="../public/images/experimentarium/messiverse/messiverseCover.png" alt="Cover of The Messiverse, an AI generated project" />
-                <p class="triangulationDescription">During the research phase, 
-                    I interviewed parents that live in Copenhagen to understand their needs and pain points.
-                    I also conducted interviews with daycare leaders to understand how their waiting list systems worked
-                    and how they could be improved.
+                <img class="img" loading="lazy" src="../public/images/cartel/cartelCover.webp" alt="Cover of Copenhagen Cartel's project" />
+                <p class="triangulationDescription">
+                    In this immersive experience through scrolling, the user will get exposed to ocean pollution data while
+                    feeling they are actually in the ocean.
                 </p>
                 <div class="personaAndFlow">
-                    <img loading="lazy" class="persona" src="../public/images/experimentarium/messiverse/amaral.png" alt="AI generated content by Tarsila do Amaral" />
-                    <img loading="lazy" class="flow" src="../public/images/experimentarium/messiverse/miyazaki.png" alt="AI generated content by Hazao Miyazaki" />
-                    <img loading="lazy" class="persona" src="../public/images/experimentarium/messiverse/dali.png" alt="AI generated content by Salvador Dali" />
-                    <img loading="lazy" class="flow" src="../public/images/experimentarium/messiverse/magritte.png" alt="AI generated content by Rene Magritte" />
+                    <img loading="lazy" class="img" src="../public/images/cartel/immersive.webp" alt="Screenshot of Copenhagen Cartel's immersive experience" />
+                    
 
                 </div>
 
@@ -223,62 +227,7 @@
 
             <section class="nuxtModules">
 
-            <div class="dashboardSection">
-                <h2>Next steps</h2>
-
-                <p class="dashboardDescription">
-                    The inevitable next step was to animate all of this content and see where it would lead me.
-
-                </p>
-
-            </div>
-
-            <div class="nuxtModulesImgs">
-
-                <video
-                    loading="lazy"
-                    poster="../public/images/experimentarium/messiverse/poster4.png"
-                    class="video4" 
-                    controls
-                    >
-                    <source src="../public/images/experimentarium/messiverse/video4.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                </video>
-
-                <video
-                    loading="lazy"
-                    poster="../public/images/experimentarium/messiverse/poster2.png"
-                    class="video2" 
-                    controls
-                    >
-                    <source src="../public/images/experimentarium/messiverse/video2.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                </video>
-
-                <video
-                    loading="lazy"
-                    poster="../public/images/experimentarium/messiverse/poster5.png"
-                    class="video5" 
-                    controls
-                    >
-                    <source src="../public/images/experimentarium/messiverse/video5.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                </video>
-
-                <video
-                    loading="lazy"
-                    poster="../public/images/experimentarium/messiverse/poster1.png"
-                    class="video1" 
-                    controls
-                    >
-                    <source src="../public/images/experimentarium/messiverse/video1.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                </video>
-
-
-            </div>
-
-
+        
 
             <div class="subscriptionsDiv">
                 
@@ -595,7 +544,7 @@ span{
 /* DASHBOARD */
 
 .dashboardSection{
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
 }
@@ -612,6 +561,10 @@ span{
 
 /* NUXT MODULES IMGS */
 
+.nuxtModules{
+    width: 80%;
+    margin: 0 auto;
+}
 
 
 

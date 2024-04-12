@@ -21,7 +21,7 @@
                         </li>
                         <li>
                             <UTooltip text="Supabase" :popper="{ placement: 'top' }">
-                                <img class="toolLogo supabaseLogo" src="../public/icons/supabase.png" alt="Supabase icon" />
+                                <img class="toolLogo" src="../public/icons/supabase.png" alt="Supabase icon" />
                             </UTooltip>
                         </li>
                         <li>
