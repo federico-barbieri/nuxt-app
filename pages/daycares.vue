@@ -47,7 +47,7 @@
 
 
         <section class="description">
-            <img class="img" src="../public/images/daycares/reborn_violet.png" alt="Logo of Reborn, a subbrand created for Waitly">
+            <img class="img" src="../public/images/daycares/reborn_violet.webp" alt="Logo of Reborn, a subbrand created for Waitly">
             <p class="rebornDescription">Rebørn is an initiative by Waitly.dk. 
                 Its name comes from <strong><em>reimagining</em></strong> how parents can access daycare
                 waiting lists, combined with <strong><em>børn</em></strong>, the word for "children" in Danish. 
@@ -56,15 +56,15 @@
             </p>
 
             <div class="descriptionGrid">
-                <img class="firstScreen" src="../public/images/daycares/rebornFirstScreen.png" alt="aaaa">
+                <img class="firstScreen" src="../public/images/daycares/rebornFirstScreen.webp" alt="aaaa">
                 <p class="triangulationDescription">During the research phase, 
                     I interviewed parents that live in Copenhagen to understand their needs and pain points.
                     I also conducted interviews with daycare leaders to understand how their waiting list systems worked
                     and how they could be improved.
                 </p>
                 <div class="personaAndFlow">
-                    <img class="persona" src="../public/images/daycares/persona.png" alt="">
-                    <img class="flow" src="../public/images/daycares/flow.png" alt="">
+                    <img class="persona" src="../public/images/daycares/persona.webp" alt="">
+                    <img class="flow" src="../public/images/daycares/flow.webp" alt="">
                 </div>
 
             </div>
@@ -89,7 +89,7 @@
 
                 </p>
 
-                <img class="dashboard" src="../public/images/daycares/dashboard.png" alt="">
+                <img class="dashboard" src="../public/images/daycares/dashboard.webp" alt="">
 
             </div>
 
@@ -101,9 +101,9 @@
                     the daycares by area, see them on a map,
                     and calculate the distance to their home.
                 </p>
-                <img class="filters" src="../public/images/daycares/filters.png" alt="">
-                <img class="map" src="../public/images/daycares/map.png" alt="">
-                <img class="distance" src="../public/images/daycares/distance.png" alt="">
+                <img class="filters" src="../public/images/daycares/filters.webp" alt="">
+                <img class="map" src="../public/images/daycares/map.webp" alt="">
+                <img class="distance" src="../public/images/daycares/distance.webp" alt="">
 
             </div>
 
@@ -115,14 +115,14 @@
                     of adding children to their waiting list.
                 </p>
 
-                <img class="daycarePanel" src="../public/images/daycares/visits.png" alt="">
+                <img class="daycarePanel" src="../public/images/daycares/visits.webp" alt="">
 
                 <p class="visitingDescription">
                     Additionaly, the parents can plan a visit through the platform and receive a confirmation
                     straight into their emails.
                 </p>
 
-                <img class="calendlyPanel" src="../public/images/daycares/visits2.png" alt="">
+                <img class="calendlyPanel" src="../public/images/daycares/visits2.webp" alt="">
             </div>
 
             <div class="subscriptionsDiv">
@@ -131,7 +131,9 @@
                     they are subscribed to, and the amount of money it represents anually.
                 </p>
 
-                <img src="../public/images/daycares/subscriptions.png" alt="">
+                <nuxtImg src="../public/images/daycares/subscriptions.webp" />
+                
+                
 
                 <span class="nextProject"><nuxt-link to="swampfest">Next project &#8594;</nuxt-link></span>
 
