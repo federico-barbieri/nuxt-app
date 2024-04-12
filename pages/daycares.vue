@@ -16,17 +16,17 @@
                     <ul>
                         <li>
                             <UTooltip text="Nuxt 3" :popper="{ placement: 'top' }">
-                                <img class="toolLogo nuxtLogo" src="../public/icons/nuxtjs.png" alt="">
+                                <nuxtImg class="toolLogo nuxtLogo" src="../public/icons/nuxtjs.png" alt="Nuxt 3 icon" />
                             </UTooltip>
                         </li>
                         <li>
                             <UTooltip text="Supabase" :popper="{ placement: 'top' }">
-                                <img class="toolLogo supabaseLogo" src="../public/icons/supabase.png" alt="">
+                                <nuxtImg class="toolLogo supabaseLogo" src="../public/icons/supabase.png" alt="Supabase icon" />
                             </UTooltip>
                         </li>
                         <li>
                             <UTooltip text="Tailwind" :popper="{ placement: 'top' }">
-                                <img class="toolLogo tailwindLogo" src="../public/icons/tailwind.png" alt="">
+                                <nuxtImg class="toolLogo tailwindLogo" src="../public/icons/tailwind.png" alt="Tailwind icon" />
                             </UTooltip>
                         </li>
                     </ul>
@@ -35,7 +35,7 @@
                     <span>
                         <a href="https://github.com/federico-barbieri/daycaresInNuxt" target="_blank">
                             <UTooltip text="Github" :popper="{ placement: 'top' }">
-                                <img class="githubLogo" src="../public/icons/github.png" alt="">
+                                <nuxtImg class="githubLogo" src="../public/icons/github.png" alt="Github icon" />
                             </UTooltip>
                         </a>
                     </span>
@@ -47,7 +47,8 @@
 
 
         <section class="description">
-            <img class="img" src="../public/images/daycares/reborn_violet.webp" alt="Logo of Reborn, a subbrand created for Waitly">
+            <nuxtImg class="img" src="../public/images/daycares/reborn_violet.webp" alt="Logo of Reborn, a subbrand created for Waitly" />
+
             <p class="rebornDescription">Rebørn is an initiative by Waitly.dk. 
                 Its name comes from <strong><em>reimagining</em></strong> how parents can access daycare
                 waiting lists, combined with <strong><em>børn</em></strong>, the word for "children" in Danish. 
@@ -56,15 +57,15 @@
             </p>
 
             <div class="descriptionGrid">
-                <img class="firstScreen" src="../public/images/daycares/rebornFirstScreen.webp" alt="aaaa">
+                <nuxtImg class="firstScreen" src="../public/images/daycares/rebornFirstScreen.webp" alt="First screen the user sees before logging in." />
                 <p class="triangulationDescription">During the research phase, 
                     I interviewed parents that live in Copenhagen to understand their needs and pain points.
                     I also conducted interviews with daycare leaders to understand how their waiting list systems worked
                     and how they could be improved.
                 </p>
                 <div class="personaAndFlow">
-                    <img class="persona" src="../public/images/daycares/persona.webp" alt="">
-                    <img class="flow" src="../public/images/daycares/flow.webp" alt="">
+                    <nuxtImg class="persona" src="../public/images/daycares/persona.webp" alt="Persona created after interviewing parents." />
+                    <nuxtImg class="flow" src="../public/images/daycares/flow.webp" alt="Tech flow between Nuxt 3, Supabase, Github and Vercel." />
                 </div>
 
             </div>
@@ -89,7 +90,7 @@
 
                 </p>
 
-                <img class="dashboard" src="../public/images/daycares/dashboard.webp" alt="">
+                <nuxtImg class="dashboard" src="../public/images/daycares/dashboard.webp" alt="Reborn's dashboard" />
 
             </div>
 
@@ -101,9 +102,9 @@
                     the daycares by area, see them on a map,
                     and calculate the distance to their home.
                 </p>
-                <img class="filters" src="../public/images/daycares/filters.webp" alt="">
-                <img class="map" src="../public/images/daycares/map.webp" alt="">
-                <img class="distance" src="../public/images/daycares/distance.webp" alt="">
+                <nuxtImg class="filters" src="../public/images/daycares/filters.webp" alt="Filters' tab in the dashboard" />
+                <nuxtImg class="map" src="../public/images/daycares/map.webp" alt="Map' tab in the dashboard" />
+                <nuxtImg class="distance" src="../public/images/daycares/distance.webp" alt="Distance' tab in the dashboard" />
 
             </div>
 
@@ -115,14 +116,15 @@
                     of adding children to their waiting list.
                 </p>
 
-                <img class="daycarePanel" src="../public/images/daycares/visits.webp" alt="">
+                <nuxtImg class="daycarePanel" src="../public/images/daycares/visits.webp" alt="Daycares' tab in the dashboard" />
 
                 <p class="visitingDescription">
                     Additionaly, the parents can plan a visit through the platform and receive a confirmation
                     straight into their emails.
                 </p>
 
-                <img class="calendlyPanel" src="../public/images/daycares/visits2.webp" alt="">
+                <nuxtImg class="calendlyPanel" src="../public/images/daycares/visits2.webp" alt="Calendly's nuxt module dashboard" />
+                
             </div>
 
             <div class="subscriptionsDiv">
@@ -131,7 +133,7 @@
                     they are subscribed to, and the amount of money it represents anually.
                 </p>
 
-                <nuxtImg src="../public/images/daycares/subscriptions.webp" />
+                <nuxtImg src="../public/images/daycares/subscriptions.webp" alt="Subscriptions' tab in the dashboard" />
                 
                 
 

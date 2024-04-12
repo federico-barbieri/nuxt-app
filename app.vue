@@ -13,6 +13,7 @@ useHead({
   meta: [
     { name: 'description', content: "Federico Barbieri's 2024 Web Development portfolio." }
   ],
+  lang: 'es',
   bodyAttrs: {
     class: 'test'
   },
