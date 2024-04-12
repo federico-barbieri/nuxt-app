@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2><nuxt-link to="daycares">01. Daycares</nuxt-link></h2>
+        <h2><nuxt-link to="reborn">01. Rebørn</nuxt-link></h2>
     
     </div>
 </template>

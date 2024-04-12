@@ -15,11 +15,11 @@
             
             <div class="some">
                 <a href="https://www.linkedin.com/in/fedebarbieri" aria-label="Check Federico's LinkedIn profile" target="_blank">
-                    <img class="linkedin" src="../public/icons/linkedin2.png" alt="">
+                    <img loading="lazy" class="linkedin" src="../public/icons/linkedin2.png" alt="LinkedIn logo">
                 </a>
                     
                 <a href="https://github.com/federico-barbieri" aria-label="Check Federico's Github profile" target="_blank">
-                    <img class="github" src="../public/icons/github.png" alt="">
+                    <img loading="lazy" class="github" src="../public/icons/github.png" alt="Github logo">
                 </a>
 
                 <a href="mailto: federico.pedro.barbieri@gmail.com" aria-label="Send an email to Federico" target="_blank">
@@ -30,10 +30,9 @@
             </div>
 
             <div class="pagesInFooter">
-                <h3><nuxt-link to="daycares">Daycares</nuxt-link></h3>
+                <h3><nuxt-link to="reborn">Rebørn</nuxt-link></h3>
                 <h3><nuxt-link to="swampfest">Swampfest</nuxt-link></h3>
-                <h3><nuxt-link to="messiverse">Messiverse</nuxt-link></h3>
-                <h3><nuxt-link to="advertising">Exploratorium</nuxt-link></h3>
+                <h3><nuxt-link to="experimentarium">Experimentarium</nuxt-link></h3>
             </div>
             
         </footer>

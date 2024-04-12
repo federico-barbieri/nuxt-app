@@ -14,13 +14,8 @@
       <swampfest />
     </section>
 
-    <section class="messiverse">
-      <messiverse />
-    </section>
-
-    <section class="advertising">
-      <advertising />
-      
+    <section class="experimentarium">
+      <experimentarium />
     </section>
     
   </main>
@@ -131,7 +126,7 @@ body{
 
 }
 
-.messiverse{
+.experimentarium{
   padding: 1rem 0;
   width: 100%;
   margin: 0 auto 0 0; 
@@ -140,7 +135,7 @@ body{
 
 }
 
-.messiverse::before {
+.experimentarium::before {
   content: "";
   position: absolute;
   top: 0;
@@ -158,30 +153,17 @@ body{
 
 }
 
-.messiverse:hover::before {
+.experimentarium:hover::before {
   opacity: 0.5;
 }
 
-.messiverse:hover{
+.experimentarium:hover{
     color: #F9F7F7;
     cursor: pointer;
     padding-bottom: 8rem;
     background-color: rgba(66, 164, 209, 0.5);
 }
 
-.advertising{
-  padding: 1rem 0;
-  width: 80%;
-  margin: 0 auto 0 0; 
-  transition: all 0.5s ease;
-}
-
-.advertising:hover{
-    color: #F9F7F7;
-    background-color: #6C0D0D;
-    border-bottom: 40px solid rgb(22, 21, 21);
-    cursor: pointer;
-}
 
 
 
