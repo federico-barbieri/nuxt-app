@@ -6,6 +6,20 @@
   </div>
 </template>
 
+<script setup>
+
+useHead({
+  title: 'Federico Barbieri',
+  meta: [
+    { name: 'description', content: "Federico Barbieri's 2024 Web Development portfolio." }
+  ],
+  bodyAttrs: {
+    class: 'test'
+  },
+})
+
+</script>
+
 <style>
 body{
     margin: 0;
