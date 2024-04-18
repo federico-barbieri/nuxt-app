@@ -2,11 +2,9 @@
     <main>
         <section class="title">
             <div class="titleMain">
-                <h1>Multimedia Design's final project at KEA</h1>
-                <p>This project explores the idea of whether 
-                    <span class="waitly"><a href="https://waitly.dk/" target="_blank">Waitly.dk</a></span>, 
-                    a danish startup whose business model spins around waiting lists for real estate, 
-                    can replicate it in the daycare sector in a sustainable and profitable way.
+                <h1>Multimedia Design's 3rd semester final project at KEA</h1>
+                <p>A Shrek-inspired music festival where one can see the lineup, get tickets
+                    and see a small bio of every band. Made in collaboration with Sabrina Sørensen.
                 </p>
             </div>
 
@@ -15,31 +13,36 @@
                     <p>Built with:</p>
                     <ul>
                         <li>
-                            <UTooltip text="Nuxt 3" :popper="{ placement: 'top' }">
-                                <img class="toolLogo nuxtLogo" src="../public/icons/nuxtjs.png" alt="Nuxt 3 icon" />
+                            <UTooltip text="Next js" :popper="{ placement: 'top' }">
+                                <img class="toolLogo nuxtLogo" src="../public/icons/nextjs2.png" alt="Next icon" />
+                            </UTooltip>
+                        </li>
+                        <li>
+                            <UTooltip text="Figma" :popper="{ placement: 'top' }">
+                                <img class="toolLogo" src="../public/icons/figma.svg" alt="Figma icon" />
+                            </UTooltip>
+                        </li>
+                        <li>
+                            <UTooltip text="Git" :popper="{ placement: 'top' }">
+                                <img class="toolLogo" src="../public/icons/git.png" alt="Git icon" />
                             </UTooltip>
                         </li>
                         <li>
                             <UTooltip text="Supabase" :popper="{ placement: 'top' }">
-                                <img class="toolLogo supabaseLogo" src="../public/icons/supabase.png" alt="Supabase icon" />
-                            </UTooltip>
-                        </li>
-                        <li>
-                            <UTooltip text="Tailwind" :popper="{ placement: 'top' }">
-                                <img class="toolLogo tailwindLogo" src="../public/icons/tailwind.png" alt="Tailwind icon" />
+                                <img class="toolLogo" src="../public/icons/supabase.png" alt="Supabase icon" />
                             </UTooltip>
                         </li>
                     </ul>
                 </div>
                 <div class="titleLinks">
                     <span>
-                        <a href="https://github.com/federico-barbieri/daycaresInNuxt" target="_blank">
+                        <a href="https://github.com/federico-barbieri/SwampFest" target="_blank">
                             <UTooltip text="Github" :popper="{ placement: 'top' }">
                                 <img class="githubLogo" src="../public/icons/github.png" alt="Github icon" />
                             </UTooltip>
                         </a>
                     </span>
-                    <span><a class="visitSite" href="https://reborn-daycares-federico-barbieri.vercel.app" target="_blank">Visit site &#8594;</a></span>
+                    <span><a class="visitSite" href="https://swampfest.vercel.app/" target="_blank">Visit site &#8594;</a></span>
                 </div>
             </div>
         </section>
@@ -47,25 +50,23 @@
 
 
         <section class="description">
-            <img class="img" src="../public/images/daycares/reborn_violet.webp" alt="Logo of Reborn, a subbrand created for Waitly" />
+            <img class="img" src="../public/images/swampfest/swampfestHero.webp" alt="Hero image of Swampfest" />
 
-            <p class="rebornDescription">Rebørn is an initiative by Waitly.dk. 
-                Its name comes from <strong><em>reimagining</em></strong> how parents can access daycare
-                waiting lists, combined with <strong><em>børn</em></strong>, the word for "children" in Danish. 
-                Its purpose is to make the daycare category more accessible and transparent,
-                just like Waitly does for real estate associations.
+            <p class="rebornDescription">A music festival website should answer three questions:
+                Who's playing, when are they playing, and how do I get tickets. <br><br>
+                Swampfest does exactly that, and adds a Shrek vibe to it.
             </p>
 
             <div class="descriptionGrid">
-                <img class="firstScreen" src="../public/images/daycares/rebornFirstScreen.webp" alt="First screen the user sees before logging in." />
+                <img class="firstScreen" src="../public/images/swampfest/swampfestArtistGrid.webp" alt="First screen the user sees before logging in." />
                 <p class="triangulationDescription">During the research phase, 
                     I interviewed parents that live in Copenhagen to understand their needs and pain points.
                     I also conducted interviews with daycare leaders to understand how their waiting list systems worked
                     and how they could be improved.
                 </p>
                 <div class="personaAndFlow">
-                    <img class="persona" src="../public/images/daycares/persona.webp" alt="Persona created after interviewing parents." />
-                    <img class="flow" src="../public/images/daycares/flow.webp" alt="Tech flow between Nuxt 3, Supabase, Github and Vercel." />
+                    <img class="persona" src="../public/images/swampfest/swampfestSchedule.webp" alt="Persona created after interviewing parents." />
+                    <img class="flow" src="../public/images/swampfest/swampfestBand.webp" alt="Tech flow between Nuxt 3, Supabase, Github and Vercel." />
                 </div>
 
             </div>
