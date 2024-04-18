@@ -164,7 +164,4 @@ body{
     background-color: rgba(66, 164, 209, 0.5);
 }
 
-
-
-
 </style>

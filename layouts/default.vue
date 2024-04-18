@@ -130,4 +130,10 @@ footer{
     margin: 0 auto;
 }
 
+@media (prefers-color-scheme: dark) {
+  nav{
+    background-color: rgb(22, 21, 21);
+  }
+}
+
 </style>

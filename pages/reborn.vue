@@ -424,6 +424,68 @@ span{
     border-radius: 50%;
 }
 
+@media (prefers-color-scheme: dark) {
+    .blue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: #3b82f6;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+
+    .white{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FFFFFF;
+        color: black;
+        width: 15rem;
+        height: 15rem;
+        margin-top: 15rem;
+        border-radius: 50%;
+        border: 1px solid #35354A;
+    }
+
+    .green{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+        background-color: #7CCC7F;
+        width: 15rem;
+        height: 15rem;
+        margin-top: 30rem;
+        border-radius: 50%;
+    }
+
+    .nearWhite{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #F3F4F6;
+        color: black;
+        width: 15rem;
+        height: 15rem;
+        margin-top: 45rem;
+        border-radius: 50%;
+    }
+
+    .violet{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #35354A;
+        width: 15rem;
+        height: 15rem;
+        color: #FFFFFF;
+        margin-top: 60rem;
+        border-radius: 50%;
+    }
+}
+
 /* DASHBOARD */
 
 .dashboardSection{
