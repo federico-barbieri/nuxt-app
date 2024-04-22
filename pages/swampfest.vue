@@ -91,7 +91,7 @@
 
                 </p>
 
-                <img class="dashboard" src="../public/images/daycares/dashboard.webp" alt="Reborn's dashboard" />
+                <img class="dashboard" src="../public/images/swampfest/swampfestTickets.webp" alt="Screenshot of Swampfests ticket process" />
 
             </div>
 
