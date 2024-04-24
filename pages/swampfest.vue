@@ -103,9 +103,9 @@
                     the daycares by area, see them on a map,
                     and calculate the distance to their home.
                 </p>
-                <img class="filters" src="../public/images/daycares/filters.webp" alt="Filters' tab in the dashboard" />
-                <img class="map" src="../public/images/daycares/map.webp" alt="Map' tab in the dashboard" />
-                <img class="distance" src="../public/images/daycares/distance.webp" alt="Distance' tab in the dashboard" />
+                <img class="filters" src="../public/images/swampfest/swampfestTicketsStepOne.webp" alt="Filters' tab in the dashboard" />
+                <img class="map" src="../public/images/swampfest/swampfestTicketsStepTwo.webp" alt="Map' tab in the dashboard" />
+                <img class="distance" src="../public/images/swampfest/swampfestTicketsStepThree.webp" alt="Distance' tab in the dashboard" />
 
             </div>
 
@@ -117,14 +117,14 @@
                     of adding children to their waiting list.
                 </p>
 
-                <img class="daycarePanel" src="../public/images/daycares/visits.webp" alt="Daycares' tab in the dashboard" />
+                <img class="daycarePanel" src="../public/images/swampfest/swampfestTicketsStepFour.webp" alt="Daycares' tab in the dashboard" />
 
                 <p class="visitingDescription">
                     Additionaly, the parents can plan a visit through the platform and receive a confirmation
                     straight into their emails.
                 </p>
 
-                <img class="calendlyPanel" src="../public/images/daycares/visits2.webp" alt="Calendly's nuxt module dashboard" />
+                <img class="calendlyPanel" src="../public/images/swampfest/swampfestTicketsStepFive.webp" alt="Calendly's nuxt module dashboard" />
                 
             </div>
 
@@ -132,13 +132,10 @@
                 <p class="subscriptionsDescription">
                     In the last tab, the user can see a list of all the daycares
                     they are subscribed to, and the amount of money it represents anually.
-                </p>
-
-                <img src="../public/images/daycares/subscriptions.webp" alt="Subscriptions' tab in the dashboard" />
-                
+                </p>                
                 
 
-                <span class="nextProject"><nuxt-link to="swampfest">Next project &#8594;</nuxt-link></span>
+                <span class="nextProject"><nuxt-link to="experimentarium">Next project &#8594;</nuxt-link></span>
 
             </div>
         </section>
