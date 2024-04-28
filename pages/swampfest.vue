@@ -134,6 +134,8 @@
                     they are subscribed to, and the amount of money it represents anually.
                 </p>                
                 
+                <img class="calendlyPanel" src="../public/images/swampfest/swampfestTicketsStepSix.webp" alt="Calendly's nuxt module dashboard" />
+
 
                 <span class="nextProject"><nuxt-link to="experimentarium">Next project &#8594;</nuxt-link></span>
 
