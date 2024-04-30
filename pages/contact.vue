@@ -1,6 +1,6 @@
 <template>
     <div>
-        contact
+        Let's get in touch
     </div>
 </template>
 
