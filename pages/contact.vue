@@ -1,8 +1,8 @@
 <template>
-    <div>
-        <div>
-            <img src="../public/images/contact/contact.webp" alt="Contact us image">
-        </div>
+    <div class="contact">
+        
+            <img class="img" src="../public/images/contact/contact.webp" alt="Contact us image">
+       
         Let's get in touch
     </div>
 </template>
@@ -13,9 +13,19 @@
 
 <style scoped>
 
-div{
+.contact{
     height: 50vh;
     border: 1px solid red;
+}
+
+.imgContainer{
+    max-width: 50%;
+    height: auto;
+}
+
+.img{
+    max-width: 100%;
+    height: auto;
 }
 
 </style>

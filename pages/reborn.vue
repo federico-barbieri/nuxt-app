@@ -2,7 +2,7 @@
     <main>
         <section class="title">
             <div class="titleMain">
-                <h1>Multimedia Design's final project at KEA</h1>
+                <h1>A new platform for daycare waiting lists </h1>
                 <p>This project explores the idea of whether 
                     <span class="waitly"><a href="https://waitly.dk/" target="_blank">Waitly.dk</a></span>, 
                     a danish startup whose business model spins around waiting lists for real estate, 
@@ -12,7 +12,7 @@
 
             <div class="toolsAndLinks">
                 <div class="titleTools">
-                    <p>Built with:</p>
+                    <p class="builtWith">Built with:</p>
                     <ul>
                         <li>
                             <UTooltip text="Nuxt 3" :popper="{ placement: 'top' }">
@@ -576,6 +576,997 @@ span{
 
 .nextProject:hover{
     border-bottom: 2px solid #35354A;
+}
+
+
+/* MEDIA QUERY 1000px */
+
+
+@media only screen and (max-width: 1000px){
+
+    .rebornDescription{
+    width: 70%;
+    text-align: left;
+    margin: 5rem auto 5rem 0;
+}
+
+    /* DESCRIPTION GRID */
+
+.descriptionGrid{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.firstScreen{
+    max-width: 100%;
+}
+
+.triangulationDescription{
+    width: 70%;
+    text-align: left;
+    margin: 5rem 0 5rem auto;
+}
+
+.personaAndFlow{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.persona{
+    max-width: 100%;
+    margin: 0 auto 2rem 0;
+}
+
+.flow{
+    max-width: 100%;
+    margin: 0 0 2rem auto;
+}
+
+/* COLOR PALETTE */
+
+.colorPalette{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-around;
+    margin: 5rem auto;
+    font-family: "Poppins", sans-serif;
+}
+
+.colorPalette span{
+    transition: all 0.5s ease-in;
+}
+
+.colorPalette span:hover{
+    border-radius: 10px;
+    filter: drop-shadow(2px 2px 2px #35354A);
+}
+
+.blue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: #3b82f6;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.white{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    width: 10rem;
+    height: 10rem;
+    margin-top: 15rem;
+    border-radius: 50%;
+    border: 1px solid #35354A;
+}
+
+.green{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background-color: #7CCC7F;
+    width: 10rem;
+    height: 10rem;
+    margin-top: 30rem;
+    border-radius: 50%;
+}
+
+.nearWhite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F3F4F6;
+    width: 10rem;
+    height: 10rem;
+    margin-top: 45rem;
+    border-radius: 50%;
+}
+
+.violet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #35354A;
+    width: 10rem;
+    height: 10rem;
+    color: #FFFFFF;
+    margin-top: 60rem;
+    border-radius: 50%;
+}
+
+/* DASHBOARD */
+
+.dashboardSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboardDescription{
+    max-width: 70%;
+    margin: 2rem auto 5rem 0;
+}
+
+.daycaresDescription{
+    max-width: 70%;
+    margin: 5rem 0 5rem auto;
+}
+
+/* NUXT MODULES IMGS */
+
+.nuxtModulesImgs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.nuxtModulesImgs img{
+    max-width: 100%;
+    margin: 2rem auto 2rem 0;
+}
+
+/* PLANNING A VISIT */
+
+.visitingDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.visitingIntro{
+    max-width: 70%;
+    margin: 5rem auto 5rem 0;
+}
+
+.visitingDescription{
+    max-width: 70%;
+    margin: 5rem 0 5rem auto;
+}
+
+.daycarePanel{
+    max-width: 100%;
+    margin: 2rem 0 2rem auto;
+}
+
+.calendlyPanel{
+    max-width: 100%;
+    margin: 2rem 0 2rem auto; 
+}
+
+.subscriptionsDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto 5rem auto;
+}
+
+.subscriptionsDescription{
+    max-width: 70%;
+    margin: 5rem auto 5rem 0;
+}
+
+.nextProject{
+    display: block;
+    margin: 5rem 0 0 auto;
+    padding-bottom: 0.2rem;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease-in;
+}
+
+.nextProject:hover{
+    border-bottom: 2px solid #35354A;
+}
+
+}
+
+/* MEDIA QUERY 767px */
+
+@media only screen and (max-width: 767px){
+
+main{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    padding: 1rem;
+}
+
+.title{
+    width: 90%;
+    margin: 2rem auto 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1{
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 2rem;
+    margin: 0 auto 1rem auto;
+}
+
+h2{
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 1.5rem;
+    margin: 0 auto 1rem 0;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+}
+
+span{
+    font-family: "Poppins", sans-serif;
+}
+
+.waitly:hover{
+    text-decoration: underline 1px solid #35354A;
+}
+
+.toolsAndLinks{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleTools{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+}
+
+.titleTools ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+    width: 50%;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.toolLogo{
+    width: 6rem;
+    padding-right: 1rem;
+    transition: all 0.5s ease-in;
+}
+
+.toolLogo:hover{
+    filter: drop-shadow(2px 2px 2px #35354A);
+}
+
+.supabaseLogo{
+    width: 2.5rem;
+}
+
+.titleLinks{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 2rem auto;
+    height: 100%;
+}
+
+.titleLinks span{
+    padding-right: 1rem;
+}
+
+.githubLogo{
+    width: 6rem;
+    padding-right: 1rem;
+    transition: all 0.5s ease-in;
+}
+
+.githubLogo:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 2px #35354A);
+}
+
+
+
+.rebornDescription{
+width: 100%;
+text-align: left;
+margin: 5rem auto 5rem 0;
+}
+
+/* DESCRIPTION GRID */
+
+.descriptionGrid{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+
+.firstScreen{
+max-width: 100%;
+}
+
+.triangulationDescription{
+width: 100%;
+text-align: left;
+margin: 5rem 0 5rem auto;
+}
+
+.personaAndFlow{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+
+.persona{
+max-width: 100%;
+margin: 0 auto 2rem 0;
+}
+
+.flow{
+max-width: 100%;
+margin: 0 0 2rem auto;
+}
+
+/* COLOR PALETTE */
+
+.colorPalette{
+width: 90%;
+display: flex;
+flex-direction: row;
+align-items: start;
+justify-content: space-around;
+margin: 5rem auto;
+font-family: "Poppins", sans-serif;
+}
+
+.colorPalette span{
+transition: all 0.5s ease-in;
+}
+
+.colorPalette span:hover{
+border-radius: 10px;
+filter: drop-shadow(2px 2px 2px #35354A);
+}
+
+.blue{
+display: flex;
+align-items: center;
+justify-content: center;
+color: #FFFFFF;
+background-color: #3b82f6;
+width: 6rem;
+height: 6rem;
+border-radius: 50%;
+}
+
+.white{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #FFFFFF;
+width: 6rem;
+height: 6rem;
+margin-top: 8rem;
+border-radius: 50%;
+border: 1px solid #35354A;
+}
+
+.green{
+display: flex;
+align-items: center;
+justify-content: center;
+color: #FFFFFF;
+background-color: #7CCC7F;
+width: 6rem;
+height: 6rem;
+margin-top: 4rem;
+border-radius: 50%;
+}
+
+.nearWhite{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #F3F4F6;
+width: 6rem;
+height: 6rem;
+margin-top: 8rem;
+border-radius: 50%;
+}
+
+.violet{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #35354A;
+width: 6rem;
+height: 6rem;
+color: #FFFFFF;
+margin-top: 0rem;
+border-radius: 50%;
+}
+
+/* DASHBOARD */
+
+.dashboardSection{
+width: 90%;
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+}
+
+.dashboardDescription{
+max-width: 100%;
+margin: 2rem auto 5rem 0;
+}
+
+.daycaresDescription{
+max-width: 100%;
+margin: 5rem auto 5rem auto;
+}
+
+/* NUXT MODULES IMGS */
+
+.nuxtModulesImgs{
+width: 90%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+margin: 0 auto;
+}
+
+.nuxtModulesImgs img{
+max-width: 100%;
+margin: 2rem auto 2rem 0;
+}
+
+/* PLANNING A VISIT */
+
+.visitingDiv{
+width: 90%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+margin: 0 auto;
+}
+
+.visitingIntro{
+max-width: 100%;
+margin: 5rem auto 5rem auto;
+}
+
+.visitingDescription{
+max-width: 100%;
+margin: 5rem auto 5rem auto;
+}
+
+.daycarePanel{
+max-width: 100%;
+margin: 2rem 0 2rem auto;
+}
+
+.calendlyPanel{
+max-width: 100%;
+margin: 2rem 0 2rem auto; 
+}
+
+.subscriptionsDiv{
+width: 90%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+margin: 0 auto 5rem auto;
+}
+
+.subscriptionsDescription{
+max-width: 100%;
+margin: 5rem auto 5rem 0;
+}
+
+.nextProject{
+display: block;
+margin: 5rem 0 0 auto;
+padding-bottom: 0.2rem;
+text-decoration: none;
+color: inherit;
+transition: all 0.3s ease-in;
+}
+
+.nextProject:hover{
+border-bottom: 2px solid #35354A;
+}
+
+}
+
+
+/* MEDIA QUERY 550px */
+
+@media only screen and (max-width: 550px){
+
+main{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    padding: 1rem;
+}
+
+.title{
+    width: 100%;
+    margin: 2rem auto 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+h1{
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 2rem;
+    margin: 0 auto 1rem auto;
+}
+
+h2{
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 1.5rem;
+    margin: 0 auto 1rem auto;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+}
+
+span{
+    font-family: "Poppins", sans-serif;
+}
+
+.waitly:hover{
+    text-decoration: underline 1px solid #35354A;
+}
+
+.toolsAndLinks{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleTools{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+}
+
+.titleTools ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.toolLogo{
+    width: 6rem;
+    padding-right: 1rem;
+    transition: all 0.5s ease-in;
+}
+
+.toolLogo:hover{
+    filter: drop-shadow(2px 2px 2px #35354A);
+}
+
+.supabaseLogo{
+    width: 2.5rem;
+}
+
+.builtWith{
+    text-align: center;
+}
+
+.titleLinks{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    height: 100%;
+}
+
+.titleLinks span{
+    padding-right: 1rem;
+}
+
+.githubLogo{
+    width: 6rem;
+    padding-right: 1rem;
+    transition: all 0.5s ease-in;
+}
+
+.githubLogo:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 2px #35354A);
+}
+
+.description{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rebornDescription{
+width: 100%;
+text-align: left;
+margin: 5rem auto;
+}
+
+/* DESCRIPTION GRID */
+
+.descriptionGrid{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+
+.firstScreen{
+max-width: 100%;
+}
+
+.triangulationDescription{
+width: 100%;
+text-align: left;
+margin: 5rem auto 5rem auto;
+}
+
+.personaAndFlow{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+
+.persona{
+max-width: 100%;
+margin: 0 auto 2rem 0;
+}
+
+.flow{
+max-width: 100%;
+margin: 0 auto 2rem auto;
+}
+
+/* COLOR PALETTE */
+
+.colorPalette{
+width: 90%;
+display: flex;
+flex-direction: row;
+align-items: start;
+justify-content: space-around;
+margin: 5rem auto;
+font-family: "Poppins", sans-serif;
+}
+
+.colorPalette span{
+transition: all 0.5s ease-in;
+}
+
+.colorPalette span:hover{
+border-radius: 10px;
+filter: drop-shadow(2px 2px 2px #35354A);
+}
+
+.blue{
+display: flex;
+align-items: center;
+justify-content: center;
+color: #FFFFFF;
+background-color: #3b82f6;
+width: 6rem;
+height: 6rem;
+border-radius: 50%;
+}
+
+.white{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #FFFFFF;
+width: 6rem;
+height: 6rem;
+margin-top: 8rem;
+border-radius: 50%;
+border: 1px solid #35354A;
+}
+
+.green{
+display: flex;
+align-items: center;
+justify-content: center;
+color: #FFFFFF;
+background-color: #7CCC7F;
+width: 6rem;
+height: 6rem;
+margin-top: 4rem;
+border-radius: 50%;
+}
+
+.nearWhite{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #F3F4F6;
+width: 6rem;
+height: 6rem;
+margin-top: 8rem;
+border-radius: 50%;
+}
+
+.violet{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #35354A;
+width: 6rem;
+height: 6rem;
+color: #FFFFFF;
+margin-top: 0rem;
+border-radius: 50%;
+}
+
+/* DASHBOARD */
+
+.dashboardSection{
+width: 90%;
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+}
+
+.dashboardDescription{
+max-width: 100%;
+margin: 2rem auto 5rem auto;
+}
+
+.daycaresDescription{
+max-width: 100%;
+margin: 5rem auto 5rem auto;
+}
+
+/* NUXT MODULES IMGS */
+
+.nuxtModulesImgs{
+width: 90%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+margin: 0 auto;
+}
+
+.nuxtModulesImgs img{
+max-width: 100%;
+margin: 2rem auto 2rem 0;
+}
+
+/* PLANNING A VISIT */
+
+.visitingDiv{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+margin: 0 auto;
+}
+
+.visitingIntro{
+max-width: 100%;
+margin: 5rem auto 5rem auto;
+}
+
+.visitingDescription{
+max-width: 100%;
+margin: 5rem auto 5rem auto;
+}
+
+.daycarePanel{
+max-width: 100%;
+margin: 2rem 0 2rem auto;
+}
+
+.calendlyPanel{
+max-width: 100%;
+margin: 2rem 0 2rem auto; 
+}
+
+.subscriptionsDiv{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+margin: 0 auto 5rem auto;
+}
+
+.subscriptionsDescription{
+max-width: 100%;
+margin: 5rem auto 5rem 0;
+}
+
+.nextProject{
+display: block;
+margin: 5rem 0 0 auto;
+padding-bottom: 0.2rem;
+text-decoration: none;
+color: inherit;
+transition: all 0.3s ease-in;
+}
+
+.nextProject:hover{
+border-bottom: 2px solid #35354A;
+}
+
+}
+
+
+@media only screen and (max-width: 450px){
+    /* COLOR PALETTE */
+
+.colorPalette{
+width: 90%;
+display: flex;
+flex-direction: row;
+align-items: start;
+justify-content: space-around;
+margin: 3rem auto 6rem auto;
+font-family: "Poppins", sans-serif;
+}
+
+.colorPalette span{
+transition: all 0.5s ease-in;
+}
+
+.colorPalette span:hover{
+border-radius: 10px;
+filter: drop-shadow(2px 2px 2px #35354A);
+}
+
+.blue{
+display: flex;
+align-items: center;
+justify-content: center;
+color: #FFFFFF;
+background-color: #3b82f6;
+width: 4rem;
+height: 4rem;
+border-radius: 50%;
+font-size: 0.5rem;
+}
+
+.white{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #FFFFFF;
+width: 4rem;
+height: 4rem;
+border-radius: 50%;
+font-size: 0.5rem;
+margin-top: 8rem;
+border-radius: 50%;
+border: 1px solid #35354A;
+}
+
+.green{
+display: flex;
+align-items: center;
+justify-content: center;
+color: #FFFFFF;
+background-color: #7CCC7F;
+width: 4rem;
+height: 4rem;
+border-radius: 50%;
+font-size: 0.5rem;
+margin-top: 4rem;
+border-radius: 50%;
+}
+
+.nearWhite{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #F3F4F6;
+width: 4rem;
+height: 4rem;
+border-radius: 50%;
+font-size: 0.5rem;
+margin-top: 8rem;
+border-radius: 50%;
+}
+
+.violet{
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #35354A;
+width: 4rem;
+height: 4rem;
+border-radius: 50%;
+font-size: 0.5rem;
+color: #FFFFFF;
+margin-top: 0rem;
+border-radius: 50%;
+}
 }
 
 

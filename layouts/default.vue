@@ -136,4 +136,41 @@ footer{
   }
 }
 
+@media only screen and (max-width: 767px){
+    nav{
+    width: 100vw;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lexend Exa', sans-serif;
+    border-bottom: 1px solid rgba(53, 53, 74, 0.8);
+}
+
+h1{
+    font-size: 1.1rem;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    list-style: none;
+    font-size: 1rem;
+}
+}
+
+@media only screen and (max-width: 400px){
+    ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 75%;
+    list-style: none;
+    font-size: 1rem;
+}
+}
+
 </style>
