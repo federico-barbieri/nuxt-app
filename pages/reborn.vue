@@ -2,7 +2,7 @@
     <main>
         <section class="title">
             <div class="titleMain">
-                <h1>A new platform for daycare waiting lists </h1>
+                <h1>A modern waiting list platform for daycares</h1>
                 <p>This project explores the idea of whether 
                     <span class="waitly"><a href="https://waitly.dk/" target="_blank">Waitly.dk</a></span>, 
                     a danish startup whose business model spins around waiting lists for real estate, 
@@ -384,7 +384,7 @@ span{
     background-color: #FFFFFF;
     width: 15rem;
     height: 15rem;
-    margin-top: 15rem;
+    margin-top: 20rem;
     border-radius: 50%;
     border: 1px solid #35354A;
 }
@@ -397,7 +397,7 @@ span{
     background-color: #7CCC7F;
     width: 15rem;
     height: 15rem;
-    margin-top: 30rem;
+    margin-top: 10rem;
     border-radius: 50%;
 }
 
@@ -408,7 +408,7 @@ span{
     background-color: #F3F4F6;
     width: 15rem;
     height: 15rem;
-    margin-top: 45rem;
+    margin-top: 20rem;
     border-radius: 50%;
 }
 
@@ -420,7 +420,7 @@ span{
     width: 15rem;
     height: 15rem;
     color: #FFFFFF;
-    margin-top: 60rem;
+    margin-top: 0rem;
     border-radius: 50%;
 }
 
@@ -431,8 +431,6 @@ span{
     justify-content: center;
     color: #FFFFFF;
     background-color: #3b82f6;
-    width: 15rem;
-    height: 15rem;
     border-radius: 50%;
 }
 
@@ -442,9 +440,6 @@ span{
         justify-content: center;
         background-color: #FFFFFF;
         color: black;
-        width: 15rem;
-        height: 15rem;
-        margin-top: 15rem;
         border-radius: 50%;
         border: 1px solid #35354A;
     }
@@ -455,9 +450,6 @@ span{
         justify-content: center;
         color: #FFFFFF;
         background-color: #7CCC7F;
-        width: 15rem;
-        height: 15rem;
-        margin-top: 30rem;
         border-radius: 50%;
     }
 
@@ -467,9 +459,6 @@ span{
         justify-content: center;
         background-color: #F3F4F6;
         color: black;
-        width: 15rem;
-        height: 15rem;
-        margin-top: 45rem;
         border-radius: 50%;
     }
 
@@ -478,10 +467,7 @@ span{
         align-items: center;
         justify-content: center;
         background-color: #35354A;
-        width: 15rem;
-        height: 15rem;
         color: #FFFFFF;
-        margin-top: 60rem;
         border-radius: 50%;
     }
 }
@@ -667,7 +653,7 @@ span{
     background-color: #FFFFFF;
     width: 10rem;
     height: 10rem;
-    margin-top: 15rem;
+    margin-top: 20rem;
     border-radius: 50%;
     border: 1px solid #35354A;
 }
@@ -680,7 +666,7 @@ span{
     background-color: #7CCC7F;
     width: 10rem;
     height: 10rem;
-    margin-top: 30rem;
+    margin-top: 10rem;
     border-radius: 50%;
 }
 
@@ -691,7 +677,7 @@ span{
     background-color: #F3F4F6;
     width: 10rem;
     height: 10rem;
-    margin-top: 45rem;
+    margin-top: 20rem;
     border-radius: 50%;
 }
 
@@ -703,7 +689,7 @@ span{
     width: 10rem;
     height: 10rem;
     color: #FFFFFF;
-    margin-top: 60rem;
+    margin-top: 0rem;
     border-radius: 50%;
 }
 
