@@ -39,7 +39,7 @@
                             </UTooltip>
                         </a>
                     </span>
-                    <span><a class="visitSite" href="https://reborn-daycares-federico-barbieri.vercel.app" target="_blank">Visit site &#8594;</a></span>
+                    <span><a class="visitSite" href="https://reborn-daycares.vercel.app/" target="_blank">Visit site &#8594;</a></span>
                 </div>
             </div>
         </section>
