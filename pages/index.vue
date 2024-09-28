@@ -57,7 +57,6 @@ body{
   margin: 0 auto 0 0;
   position: relative;
   transition: padding 0.5s ease, background-color 0.5s ease;
-
 }
 
 .daycares::before {
@@ -95,7 +94,6 @@ body{
   margin: 0 auto 0 0;
   position: relative; /* Add this line */
   transition: padding 0.5s ease, background-color 0.5s ease;
-
 }
 
 .swampfest::before {
@@ -133,7 +131,6 @@ body{
   margin: 0 auto 0 0; 
   position: relative; /* Add this line */
   transition: padding 0.5s ease, background-color 0.5s ease;
-
 }
 
 .experimentarium::before {
@@ -163,6 +160,30 @@ body{
     cursor: pointer;
     padding-bottom: 8rem;
     background-color: rgba(66, 164, 209, 0.5);
+}
+
+@media only screen and (max-width: 300px){
+  .daycares {
+  padding: 1rem 0 0 0.5rem;
+  width: 100%;
+  margin: 0 auto 0 0;
+  position: relative;
+  transition: padding 0.5s ease, background-color 0.5s ease;
+}
+  .swampfest {
+  padding: 1rem 0 0 0.5rem;
+  width: 100%;
+  margin: 0 auto 0 0;
+  position: relative; /* Add this line */
+  transition: padding 0.5s ease, background-color 0.5s ease;
+}
+  .experimentarium{
+  padding: 1rem 0 0 0.5rem;
+  width: 100%;
+  margin: 0 auto 0 0; 
+  position: relative; /* Add this line */
+  transition: padding 0.5s ease, background-color 0.5s ease;
+}
 }
 
 </style>
