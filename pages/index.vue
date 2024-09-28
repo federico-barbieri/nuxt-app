@@ -25,6 +25,7 @@
 
 @import "../css/styles.css";
 
+
 body{
   margin: 0;
   padding: 0;
@@ -41,7 +42,7 @@ body{
   overflow: hidden;
   height: 90vh;
   background-color: var(--nearWhite);
-  margin: 0rem 2rem;
+  margin: 0rem auto;
   display: flex;
   flex-direction: column;
   justify-content: center; 
@@ -51,7 +52,7 @@ body{
 
 
 .daycares {
-  padding: 1rem 0;
+  padding: 1rem 0 0 2rem;
   width: 100%;
   margin: 0 auto 0 0;
   position: relative;
@@ -89,7 +90,7 @@ body{
 }
 
 .swampfest {
-  padding: 1rem 0;
+  padding: 1rem 0 0 2rem;
   width: 100%;
   margin: 0 auto 0 0;
   position: relative; /* Add this line */
@@ -127,7 +128,7 @@ body{
 }
 
 .experimentarium{
-  padding: 1rem 0;
+  padding: 1rem 0 0 2rem;
   width: 100%;
   margin: 0 auto 0 0; 
   position: relative; /* Add this line */

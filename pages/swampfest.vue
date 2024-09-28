@@ -2,9 +2,8 @@
     <main>
         <section class="title">
             <div class="titleMain">
-                <h1>Multimedia Design's 3rd semester final project at KEA</h1>
-                <p>A Shrek-inspired music festival where one can see the lineup, get tickets
-                    and see a small bio of every band. Made in collaboration with Sabrina Sørensen.
+                <h1>A Shrek-inspired music festival</h1>
+                <p>Check the lineup, get tickets and see a small bio of every band. Made in collaboration with Sabrina Sørensen.
                 </p>
             </div>
 

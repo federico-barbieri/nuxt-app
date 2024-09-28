@@ -130,12 +130,6 @@ footer{
     margin: 0 auto;
 }
 
-@media (prefers-color-scheme: dark) {
-  nav{
-    background-color: rgb(22, 21, 21);
-  }
-}
-
 @media only screen and (max-width: 767px){
     nav{
     width: 100vw;
