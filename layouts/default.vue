@@ -11,7 +11,7 @@
 
         <footer>
 
-            <p class="federicoBarbieri">&copy; Federico Barbieri 2024</p>
+            <h3 class="federicoBarbieri"><strong>Federico Barbieri 2024</strong></h3>
             
             <div class="some">
                 <a href="https://www.linkedin.com/in/fedebarbieri" aria-label="Check Federico's LinkedIn profile" target="_blank">
@@ -30,9 +30,9 @@
             </div>
 
             <div class="pagesInFooter">
-                <h3><nuxt-link to="reborn">Rebørn</nuxt-link></h3>
-                <h3><nuxt-link to="swampfest">Swampfest</nuxt-link></h3>
-                <h3><nuxt-link to="experimentarium">Experimentarium</nuxt-link></h3>
+                <h3 class="projectOnHover"><nuxt-link to="reborn">Rebørn</nuxt-link></h3>
+                <h3 class="projectOnHover"><nuxt-link to="swampfest">Swampfest</nuxt-link></h3>
+                <h3 class="projectOnHover"><nuxt-link to="experimentarium">Experimentarium</nuxt-link></h3>
             </div>
             
         </footer>
@@ -61,7 +61,6 @@ nav{
     display: flex;
     justify-content: space-between;
     font-family: 'Lexend Exa', sans-serif;
-    border-bottom: 1px solid rgba(53, 53, 74, 0.8);
 }
 
 h1{
@@ -94,16 +93,17 @@ a{
 
 footer{
     width: 100vw;
-    height: 30vh;
+    height: 10vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border-top: 1px solid rgba(53, 53, 74, 0.8);  
+    font-family: 'Lexend Exa', sans-serif;
 }
 
 .federicoBarbieri{
     margin: 0 auto;
+    font-size: 1.5rem;
 }
 
 .some{
@@ -130,6 +130,10 @@ footer{
     margin: 0 auto;
 }
 
+.projectOnHover:hover{
+    text-decoration: underline;
+}
+
 @media only screen and (max-width: 767px){
     nav{
     width: 100vw;
@@ -152,6 +156,48 @@ ul{
     width: 50%;
     list-style: none;
     font-size: 1rem;
+}
+}
+
+@media only screen and (max-width: 750px){
+    footer{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.federicoBarbieri{
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+.some{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.linkedin{
+    width: 2rem;
+}
+
+.github{
+    width: 4rem;
+}
+
+.pagesInFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 80%;
 }
 }
 

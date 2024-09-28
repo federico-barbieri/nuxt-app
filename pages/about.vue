@@ -12,6 +12,13 @@
                 <li>KEA - PBA i Web Udvikling(2024-2025)</li>
                 <li>KEA - Associates Degree in Multimedia Design (2022-2024)</li>
             </ul>
+
+            <h2>Work Experience</h2>
+            <ul>
+                <li><em>BioNordic</em> - <strong>Web Developer</strong> (Dec 2023 - Current Position)</li>
+                <li><em>Waitly</em> - <strong>Frontend Developer</strong> - Internship (Aug 2023- Dec 2023)</li>
+                <li><em>AIM Robotics</em> - <strong>Frontend Developer</strong> - (Dec 2022- May 2023)</li>
+            </ul>
         </div>
 
         <div class="img">
