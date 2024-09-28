@@ -1,7 +1,7 @@
 <template>
     <div class="contact">
         
-            <img class="img" src="../public/images/contact/contact.webp" alt="Contact us image">
+            
        
         Let's get in touch
     </div>
