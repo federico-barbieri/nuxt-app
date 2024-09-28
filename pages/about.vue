@@ -80,7 +80,7 @@ h2{
     width: clamp(100%, 70%, 100%);
     height: 100%;
     margin: 0 auto;
-    background-image: url('/images/me/fpb.jpg');
+    background-image: url('/fpb.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
