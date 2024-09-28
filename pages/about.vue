@@ -19,6 +19,8 @@
                 <li><em>Waitly</em> - <strong>Frontend Developer</strong> - Internship (Aug 2023- Dec 2023)</li>
                 <li><em>AIM Robotics</em> - <strong>Frontend Developer</strong> - (Dec 2022- May 2023)</li>
             </ul>
+
+            <carousel />
         </div>
 
         <div class="img">
@@ -26,6 +28,7 @@
         </div>
 
     </section>
+
 </template>
 
 <script setup>
@@ -36,7 +39,7 @@
 
 section{
     width: 90vw;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -47,7 +50,7 @@ section{
 @media only screen and (max-width: 1100px){
     section{
     width: 90vw;
-    height: 120vh;
+    height: 140vh;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -61,6 +64,7 @@ section{
     width: 100%;
     height: 100%;
     padding: 1rem;
+    overflow-y: scroll;
 }
 
 .text p:nth-child(3) {
@@ -96,7 +100,7 @@ h2{
 @media only screen and (max-width: 600px){
     section{
     width: 100vw;
-    height: 120vh;
+    height: 160vh;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
