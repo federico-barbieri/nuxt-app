@@ -40,7 +40,7 @@ section{
 @media only screen and (max-width: 900px){
     section{
     width: 90vw;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
