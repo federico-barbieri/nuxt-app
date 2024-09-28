@@ -15,7 +15,7 @@
             
             <div class="some">
                 <a href="https://www.linkedin.com/in/fedebarbieri" aria-label="Check Federico's LinkedIn profile" target="_blank">
-                    <img loading="lazy" class="github" src="../public/icons/linkedin.png" alt="LinkedIn logo">
+                    <img loading="lazy" class="linkedin" src="../public/icons/linkedin.png" alt="LinkedIn logo">
                 </a>
                     
                 <a href="https://github.com/federico-barbieri" aria-label="Check Federico's Github profile" target="_blank">
@@ -30,9 +30,9 @@
             </div>
 
             <div class="pagesInFooter">
-                <h3 class="projectOnHover"><nuxt-link to="reborn">Rebørn</nuxt-link></h3>
-                <h3 class="projectOnHover"><nuxt-link to="swampfest">Swampfest</nuxt-link></h3>
-                <h3 class="projectOnHover"><nuxt-link to="experimentarium">Experimentarium</nuxt-link></h3>
+                <h4 class="projectOnHover"><nuxt-link to="reborn">Rebørn</nuxt-link></h4>
+                <h4 class="projectOnHover"><nuxt-link to="swampfest">Swampfest</nuxt-link></h4>
+                <h4 class="projectOnHover"><nuxt-link to="experimentarium">Experimentarium</nuxt-link></h4>
             </div>
             
         </footer>
@@ -162,12 +162,12 @@ ul{
 @media only screen and (max-width: 750px){
     footer{
     width: 100vw;
-    height: 15vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .federicoBarbieri{
@@ -197,18 +197,59 @@ ul{
     align-items: center;
     justify-content: space-around;
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
 }
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 500px){
+    footer{
+        height: 35vh;
+        align-items: center;
+        justify-content: space-around;
+        padding: 1rem;
+    }
     ul{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    width: 75%;
+    width: 100%;
     list-style: none;
+    font-size: 1rem;
+}
+
+.some{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: auto;
+}
+.linkedin{
+    width: 4rem;
+}
+
+.github{
+    width: 4rem;
+}
+.bi-envelope{
+    width: 4rem;
+}
+.projectOnHover{
+    font-size: 0.6rem;
+    font-weight: 100;
+}
+.pagesInFooter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: auto;
+    padding: 0;
+}
+h3{
     font-size: 1rem;
 }
 }

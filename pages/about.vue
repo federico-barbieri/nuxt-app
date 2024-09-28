@@ -44,12 +44,12 @@ section{
     padding: 2rem;
 }
 
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1100px){
     section{
     width: 90vw;
-    height: 90vh;
+    height: 120vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: space-between;
     padding: 2rem;
@@ -91,6 +91,53 @@ h2{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media only screen and (max-width: 600px){
+    section{
+    width: 100vw;
+    height: 120vh;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+    .text{
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.text p:nth-child(3) {
+    width: 80%;
+}
+
+.text p{
+    margin: 1rem auto 0 0;
+}
+
+h1{
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 2rem;
+    margin: 0 auto 1rem auto;
+}
+
+h2{
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 1.2rem;
+    margin: 2rem auto 1rem auto;
+}
+
+.img{
+    width: clamp(100%, 70%, 100%);
+    height: 100%;
+    margin: 0 auto;
+    background-image: url('/fpb.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 }
 
 </style>
