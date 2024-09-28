@@ -65,16 +65,15 @@
             <img class="firstScreen" src="../public/images/experimentarium/messiverse/bosch.png" alt="AI generated content by Hieronymous Bosch" />
 
             
-            <p class="rebornDescription">The Messiverse is an attempt to explore how different historical artists
+            <p class="projectDescription">The Messiverse is an attempt to explore how different historical artists
                 would depict Argentina winning the World Cup 2022. From Da Vinci to Baskiat, the possibilities are endless.
             </p>
 
             <div class="descriptionGrid">
                 <img class="img" loading="lazy" src="../public/images/experimentarium/messiverse/messiverseCover.png" alt="Cover of The Messiverse, an AI generated project" />
-                <p class="triangulationDescription">During the research phase, 
-                    I interviewed parents that live in Copenhagen to understand their needs and pain points.
-                    I also conducted interviews with daycare leaders to understand how their waiting list systems worked
-                    and how they could be improved.
+                <p class="triangulationDescription">The main inspiration behind this project was to bridge the gap 
+                    between historical art and contemporary sports, merging two seemingly unrelated worlds 
+                    into a captivating visual experience. 
                 </p>
                 <div class="personaAndFlow">
                     <img loading="lazy" class="persona" src="../public/images/experimentarium/messiverse/amaral.png" alt="AI generated content by Tarsila do Amaral" />
@@ -100,7 +99,7 @@
 
             </div>
 
-            <div class="nuxtModulesImgs">
+            <div class="messiverseVideos">
 
                 <video
                     loading="lazy"
@@ -201,7 +200,7 @@
             <img class="firstScreen" src="../public/images/cartel/plastic.webp" alt="Cover image for Copenhagen Cartel" />
 
 
-            <p class="rebornDescription">
+            <p class="projectDescription">
                 As a user, it's easy to stand behind noble causes. Fighting against ocean pollution is one of them.
                 But it's not easy to translate these values into actions. <br><br>
 
@@ -255,7 +254,7 @@ useHead({
 
 /* videos */
 
-.nuxtModulesImgs{
+.messiverseVideos{
     width: 100%;
     height: auto;
     gap: 1.5rem;
@@ -418,7 +417,7 @@ span{
     margin: 0 auto;
 }
 
-.rebornDescription{
+.projectDescription{
     width: 50%;
     text-align: left;
     margin: 5rem auto 5rem 0;
@@ -462,84 +461,6 @@ span{
     margin: 0 0 2rem auto;
 }
 
-/* COLOR PALETTE */
-
-.colorPalette{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    justify-content: space-around;
-    margin: 5rem auto;
-    font-family: "Poppins", sans-serif;
-}
-
-.colorPalette span{
-    transition: all 0.5s ease-in;
-}
-
-.colorPalette span:hover{
-    border-radius: 10px;
-    filter: drop-shadow(2px 2px 2px #35354A);
-}
-
-.blue{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
-    background-color: #3b82f6;
-    width: 15rem;
-    height: 15rem;
-    border-radius: 50%;
-}
-
-.white{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #FFFFFF;
-    width: 15rem;
-    height: 15rem;
-    margin-top: 15rem;
-    border-radius: 50%;
-    border: 1px solid #35354A;
-}
-
-.green{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #FFFFFF;
-    background-color: #7CCC7F;
-    width: 15rem;
-    height: 15rem;
-    margin-top: 30rem;
-    border-radius: 50%;
-}
-
-.nearWhite{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #F3F4F6;
-    width: 15rem;
-    height: 15rem;
-    margin-top: 45rem;
-    border-radius: 50%;
-}
-
-.violet{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #35354A;
-    width: 15rem;
-    height: 15rem;
-    color: #FFFFFF;
-    margin-top: 60rem;
-    border-radius: 50%;
-}
 
 /* DASHBOARD */
 
@@ -554,10 +475,6 @@ span{
     margin: 2rem auto 5rem 0;
 }
 
-.daycaresDescription{
-    max-width: 50%;
-    margin: 5rem 0 5rem auto;
-}
 
 /* NUXT MODULES IMGS */
 
@@ -625,6 +542,632 @@ span{
 .backToTop:hover{
     cursor: pointer;
     border-bottom: 2px solid #35354A;
+}
+
+/* MEDIA QUERY 1000PX */
+
+@media only screen and (max-width: 1000px){
+    main{
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    padding: 1rem;
+}
+
+.title{
+    width: 90%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1{
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 2rem;
+    margin: 0 auto 1rem auto;
+}
+
+h2{
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 1.5rem;
+    margin: 0 auto 1rem 0;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+}
+
+span{
+    font-family: "Poppins", sans-serif;
+}
+
+.firstDivider{
+    margin: 3rem auto;
+    width: 90%;
+}
+
+.toolsAndLinks{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleTools{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto;
+}
+
+.titleTools ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+    width: 80%;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.toolLogo{
+    width: 6rem;
+    padding-right: 1rem;
+    transition: all 0.5s ease-in;
+}
+
+.toolLogo:hover{
+    filter: drop-shadow(2px 2px 2px #35354A);
+}
+
+
+.supabaseLogo{
+    width: 2.5rem;
+}
+
+.titleLinks{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 2rem auto;
+    height: 100%;
+}
+
+.titleLinks span{
+    padding-right: 1rem;
+}
+
+.githubLogo{
+    width: 4rem;
+    padding-right: 1rem;
+    transition: all 0.5s ease-in;
+}
+
+.githubLogo:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 2px #35354A);
+}
+
+/* DESCRIPTION */
+
+.description{
+    width: 90%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.description .img{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.projectDescription{
+    width: 70%;
+    text-align: left;
+    margin: 5rem auto 5rem 0;
+}
+
+/* DESCRIPTION GRID */
+
+.descriptionGrid{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.firstScreen{
+    max-width: 100%;
+}
+
+.triangulationDescription{
+    width: 70%;
+    text-align: left;
+    margin: 5rem 0 5rem auto;
+}
+
+.personaAndFlow{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.persona{
+    max-width: 100%;
+    margin: 0 auto 2rem 0;
+}
+
+.flow{
+    max-width: 100%;
+    margin: 0 0 2rem auto;
+}
+
+/* DASHBOARD */
+
+.dashboardSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboardDescription{
+    max-width: 70%;
+    margin: 2rem auto 5rem 0;
+}
+
+
+/* NUXT MODULES IMGS */
+
+.nuxtModules{
+    width: 90%;
+    margin: 0 auto;
+}
+
+}
+
+/* MEDIA QUERY 750PX */
+
+@media only screen and (max-width: 750px){
+    main{
+    width: 95%;
+    margin: 0 auto;
+    height: auto;
+    padding: 1rem;
+}
+
+.title{
+    width: 95%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1{
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 2rem;
+    margin: 0 auto 1rem auto;
+}
+
+h2{
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 1.5rem;
+    margin: 0 auto 1rem 0;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+}
+
+span{
+    font-family: "Poppins", sans-serif;
+}
+
+.firstDivider{
+    margin: 3rem auto;
+    width: 95%;
+}
+
+.toolsAndLinks{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleTools{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto 0 auto;
+}
+
+.titleTools ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+    width: 90%;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.toolLogo{
+    width: 6rem;
+    padding-right: 1rem;
+    transition: all 0.5s ease-in;
+}
+
+.toolLogo:hover{
+    filter: drop-shadow(2px 2px 2px #35354A);
+}
+
+
+.supabaseLogo{
+    width: 2.5rem;
+}
+
+.titleLinks{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 2rem auto;
+    height: 100%;
+}
+
+.titleLinks span{
+    padding-right: 1rem;
+}
+
+.githubLogo{
+    width: 6rem;
+    padding-right: 1rem;
+    transition: all 0.5s ease-in;
+}
+
+.githubLogo:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 2px #35354A);
+}
+
+/* DESCRIPTION */
+
+.description{
+    width: 95%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.description .img{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.projectDescription{
+    width: 90%;
+    text-align: left;
+    margin: 5rem auto 5rem 0;
+}
+
+/* DESCRIPTION GRID */
+
+.descriptionGrid{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.firstScreen{
+    max-width: 100%;
+}
+
+.triangulationDescription{
+    width: 90%;
+    text-align: left;
+    margin: 5rem 0 5rem auto;
+}
+
+.personaAndFlow{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.persona{
+    max-width: 100%;
+    margin: 0 auto 2rem 0;
+}
+
+.flow{
+    max-width: 100%;
+    margin: 0 0 2rem auto;
+}
+
+/* DASHBOARD */
+
+.dashboardSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboardDescription{
+    max-width: 90%;
+    margin: 2rem auto 5rem 0;
+}
+
+
+/* NUXT MODULES IMGS */
+
+.nuxtModules{
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* videos */
+
+.messiverseVideos{
+    width: 100%;
+    height: auto;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.video1, .video2, .video4, .video5{
+    max-width: 90%;
+    display: block;
+}
+
+}
+
+/* MEDIA QUERY 500PX */
+
+@media only screen and (max-width: 500px){
+    main{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+    padding: 1rem;
+}
+
+.title{
+    width: 100%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1{
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 2rem;
+    margin: 0 auto 1rem auto;
+}
+
+h2{
+    font-family: 'Lexend Exa', sans-serif;
+    font-size: 1.5rem;
+    margin: 0 auto 1rem 0;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+}
+
+span{
+    font-family: "Poppins", sans-serif;
+}
+
+.firstDivider{
+    margin: 3rem auto;
+    width: 100%;
+}
+
+.toolsAndLinks{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titleTools{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem auto 0 auto;
+}
+
+.titleTools ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.toolLogo{
+    width: 7rem;
+    padding-right: 1rem;
+    transition: all 0.5s ease-in;
+}
+
+.toolLogo:hover{
+    filter: drop-shadow(2px 2px 2px #35354A);
+}
+
+
+.titleLinks{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 2rem auto;
+    height: 100%;
+}
+
+.titleLinks span{
+    padding-right: 1rem;
+}
+
+.githubLogo{
+    width: 6rem;
+    padding-right: 1rem;
+    transition: all 0.5s ease-in;
+}
+
+.githubLogo:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 2px #35354A);
+}
+
+/* DESCRIPTION */
+
+.description{
+    width: 100%;
+    margin: 5rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.description .img{
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.projectDescription{
+    width: 100%;
+    text-align: left;
+    margin: 5rem auto 5rem 0;
+}
+
+/* DESCRIPTION GRID */
+
+.descriptionGrid{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.firstScreen{
+    max-width: 100%;
+}
+
+.triangulationDescription{
+    width: 100%;
+    text-align: left;
+    margin: 5rem auto 5rem 0;
+}
+
+.personaAndFlow{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.persona{
+    max-width: 100%;
+    margin: 0 auto 2rem 0;
+}
+
+.flow{
+    max-width: 100%;
+    margin: 0 auto 2rem 0;
+}
+
+/* DASHBOARD */
+
+.dashboardSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboardDescription{
+    max-width: 100%;
+    margin: 2rem auto 5rem 0;
+}
+
+
+/* NUXT MODULES IMGS */
+
+.nuxtModules{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* videos */
+
+.messiverseVideos{
+    width: 100%;
+    height: auto;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.video1, .video2, .video4, .video5{
+    max-width: 100%;
+    display: block;
+}
+
 }
 
 </style>
