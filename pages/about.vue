@@ -4,7 +4,6 @@
             <h1>About me</h1>
             <p>I'm a web developer at BioNordic and student at KEA.</p>
             <p>As part of my third semester, I'm looking for an unpaid internship between January and April 2025.</p>
-            <p>In a past life, I was a creative writer working for advertising agencies.</p>
             <p>In my freetime you'll find me learning more about web security and perfecting my Danish.</p>
             
             <h2>Education</h2>
@@ -20,7 +19,7 @@
                 <li><em>AIM Robotics</em> - <strong>Frontend Developer</strong> - (Dec 2022- May 2023)</li>
             </ul>
 
-            <carousel />
+            
         </div>
 
         <div class="img">
@@ -39,7 +38,7 @@
 
 section{
     width: 90vw;
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -50,7 +49,7 @@ section{
 @media only screen and (max-width: 1100px){
     section{
     width: 90vw;
-    height: 140vh;
+    height: 100vh;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;

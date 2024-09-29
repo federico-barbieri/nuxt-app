@@ -141,7 +141,6 @@ footer{
     display: flex;
     justify-content: space-between;
     font-family: 'Lexend Exa', sans-serif;
-    border-bottom: 1px solid rgba(53, 53, 74, 0.8);
 }
 
 h1{
