@@ -115,7 +115,7 @@ footer{
 }
 
 .linkedin{
-    width: 2rem;
+    width: 4rem;
 }
 
 .github{
@@ -184,7 +184,7 @@ ul{
 }
 
 .linkedin{
-    width: 2rem;
+    width: 4rem;
 }
 
 .github{
