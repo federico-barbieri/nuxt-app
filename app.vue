@@ -14,6 +14,9 @@ useHead({
     { name: 'description', content: "Federico Barbieri's 2024 Web Development portfolio." }
   ],
   lang: 'en',
+  link: [
+    { rel: 'icon', type: 'image/png', href: '/images/experimentarium/messiverse/bosch.png' }
+  ]
 })
 
 </script>
