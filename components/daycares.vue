@@ -1,7 +1,6 @@
 <template>
     <div>
         <h2><nuxt-link to="reborn"><span class="number">01.</span> Rebørn</nuxt-link></h2>
-    
     </div>
 </template>
 

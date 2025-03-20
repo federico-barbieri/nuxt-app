@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2><nuxt-link to="swampfest"><span class="number">02.</span> Swampfest</nuxt-link></h2>
+        <h2><nuxt-link to="swampfest"><span class="number">02.</span> SMK Art Project</nuxt-link></h2>
     
     </div>
 </template>

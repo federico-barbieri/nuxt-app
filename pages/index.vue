@@ -103,8 +103,8 @@ body{
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("../public/projectsImgs/swampfest.jpg");
-  background-position: center;
+  background: url("../public/projectsImgs/titans.jpg");
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0;
@@ -114,14 +114,13 @@ body{
 }
 
 .swampfest:hover::before {
-  opacity: 0.5;
+  opacity: 1;
 }
 
 .swampfest:hover {
   color: #f9f7f7;
   cursor: pointer;
   padding-bottom: 8rem;
-  background-color: rgba(196, 211, 3, 0.5);
 
 }
 

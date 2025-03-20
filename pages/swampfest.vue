@@ -2,8 +2,8 @@
     <main>
         <section class="title">
             <div class="titleMain">
-                <h1>A Shrek-inspired music festival</h1>
-                <p>Check the lineup, get tickets and see a small bio of every band. Made in collaboration with Sabrina Sørensen.
+                <h1>SMK's vision into the future</h1>
+                <p>With more than 200.000 artworks, SMK aims to <a href="https://www.smk.dk/en/article/smk-open/"><em>digitalize their entire collection</em></a>. This project imagines a potential way of doing it. Made in collaboration with Henry Navntoft.
                 </p>
             </div>
 
@@ -12,23 +12,28 @@
                     <p>Built with:</p>
                     <ul>
                         <li>
-                            <UTooltip text="Next js" :popper="{ placement: 'top' }">
-                                <img class="toolLogo nuxtLogo" src="../public/icons/nextjs2.png" alt="Next icon" />
+                            <UTooltip text="React js" :popper="{ placement: 'top' }">
+                                <img class="toolLogo" src="../public/icons/react-2.svg" alt="React icon" />
                             </UTooltip>
                         </li>
                         <li>
-                            <UTooltip text="Figma" :popper="{ placement: 'top' }">
-                                <img class="toolLogo" src="../public/icons/figma.svg" alt="Figma icon" />
+                            <UTooltip text="Typescript" :popper="{ placement: 'top' }">
+                                <img class="toolLogo" src="../public/icons/typescript-svgrepo-com.svg" alt="Typescript icon" />
                             </UTooltip>
                         </li>
                         <li>
-                            <UTooltip text="Git" :popper="{ placement: 'top' }">
-                                <img class="toolLogo" src="../public/icons/git.png" alt="Git icon" />
+                            <UTooltip text="PostgreSQL" :popper="{ placement: 'top' }">
+                                <img class="postgres" src="../public/icons/postgresql-ar21.svg" alt="Postgres icon" />
                             </UTooltip>
                         </li>
                         <li>
-                            <UTooltip text="Supabase" :popper="{ placement: 'top' }">
-                                <img class="toolLogo" src="../public/icons/supabase.png" alt="Supabase icon" />
+                            <UTooltip text="Docker" :popper="{ placement: 'top' }">
+                                <img class="docker" src="../public/icons/docker-logo-blue.svg" alt="Docker icon" />
+                            </UTooltip>
+                        </li>
+                        <li>
+                            <UTooltip text="Nginx" :popper="{ placement: 'top' }">
+                                <img class="toolLogo" src="../public/icons/nginx-svgrepo-com.svg" alt="Nginx icon" />
                             </UTooltip>
                         </li>
                     </ul>
@@ -36,12 +41,12 @@
                 <div class="titleLinks">
                     <span>
                         <a href="https://github.com/federico-barbieri/SwampFest" target="_blank">
-                            <UTooltip text="Github" :popper="{ placement: 'top' }">
-                                <img class="githubLogo" src="../public/icons/github.png" alt="Github icon" />
+                            <UTooltip text="GitLab" :popper="{ placement: 'top' }">
+                                <img class="gitlabLogo" src="../public/icons/gitlab-logo-100.svg" alt="GitLab icon" />
                             </UTooltip>
                         </a>
                     </span>
-                    <span><a class="visitSite" href="https://swampfest.vercel.app/" target="_blank">Visit site &#8594;</a></span>
+                    <span><a class="visitSite" href="https://examprojecttest.net/" target="_blank">Visit site &#8594;</a></span>
                 </div>
             </div>
         </section>
@@ -49,7 +54,7 @@
 
 
         <section class="description">
-            <img class="img" src="../public/images/swampfest/swampfestHero.webp" alt="Hero image of Swampfest" />
+            <img class="img" src="../public/images/swampfest/titans.jpg" alt="Hero image of SMK" />
 
             <p class="rebornDescription">A music festival website should answer three questions:
                 Who's playing, when are they playing, and how do I get tickets. <br><br>
@@ -219,12 +224,32 @@ span{
 }
 
 .toolLogo{
-    width: 6rem;
+    width: 4rem;
+    padding-right: 1rem;
+    transition: all 0.5s ease-in;
+}
+
+.docker{
+    width: 5rem;
+    padding-right: 1rem;
+    transition: all 0.5s ease-in;
+}
+
+.postgres{
+    width: 5rem;
     padding-right: 1rem;
     transition: all 0.5s ease-in;
 }
 
 .toolLogo:hover{
+    filter: drop-shadow(2px 2px 2px #35354A);
+}
+
+.docker:hover{
+    filter: drop-shadow(2px 2px 2px #35354A);
+}
+
+.postgres:hover{
     filter: drop-shadow(2px 2px 2px #35354A);
 }
 
@@ -242,9 +267,9 @@ span{
     padding-right: 1rem;
 }
 
-.githubLogo{
+.gitlabLogo{
     width: 6rem;
-    padding-right: 1rem;
+    padding-top: 0.5rem;
     transition: all 0.5s ease-in;
 }
 
