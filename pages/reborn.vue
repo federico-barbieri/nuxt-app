@@ -137,7 +137,7 @@
                 
                 
 
-                <span class="nextProject"><nuxt-link to="swampfest">Next project &#8594;</nuxt-link></span>
+                <span class="nextProject"><nuxt-link to="smk">Next project &#8594;</nuxt-link></span>
 
             </div>
         </section>
