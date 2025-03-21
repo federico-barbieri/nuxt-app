@@ -41,6 +41,11 @@
                                 <img class="gitlab" src="../public/icons/gitlab-logo-100.svg" alt="GitLab icon" />
                             </UTooltip>
                         </li>
+                        <li>
+                            <UTooltip text="Prisma" :popper="{ placement: 'top' }">
+                                <img class="gitlab" src="../public/icons/prisma-2.svg" alt="Prisma icon" />
+                            </UTooltip>
+                        </li>
                     </ul>
                 </div>
                 <div class="titleLinks">
@@ -55,15 +60,21 @@
         <section class="description">
             <img class="img" src="../public/images/swampfest/titans.jpg" alt="Hero image of SMK" />
 
-            <p class="rebornDescription">A music festival website should answer three questions:
-                Who's playing, when are they playing, and how do I get tickets. <br><br>
-                Swampfest does exactly that, and adds a Shrek vibe to it.
-            </p>
+            <div>
+                <h2>How it works</h2>
+
+                <p class="rebornDescription">
+                    The platform is seeded with 2000 artworks taken from the API and stored in a PostgreSQL database, 
+                    following a Prisma model. For efficiency, it uses tanstack query and incorporates pagination, filtering and sorting.
+                </p>
+
+            </div>
+
 
             <div class="descriptionGrid">
                 <img class="firstScreen" src="../public/images/swampfest/nice_img2.jpg" alt="SMK art" />
-                <p class="triangulationDescription">A live schedule can be found for every day and for every stage. Additionally, users can 
-                    read about their favourite bands in the bands' section.
+                <p class="triangulationDescription">
+                    A user can sign up, log in, get a new password, and like/unlike their favorite artworks.
                 </p>
                 <div class="personaAndFlow">
                     <img class="persona" src="../public/images/swampfest/nice_image3.png" alt="SMK art." />
@@ -77,10 +88,15 @@
         <section class="nuxtModules">
             
             <div class="dashboardSection">
-                <h2>The Tickets</h2>
+                <h2>The Process</h2>
 
                 <p class="dashboardDescription">
-                    In the tickets section, the user can go throughout the whole purchasing process.
+                    When a change is made to the codebase, a long process starts. The code is pushed to GitLab, 
+                    where a CI pipeline tests it and builds Docker Images that are stored in Docker Registry.
+                    In the deployment stage, the CI job accesses my virtual private server with my credentials, 
+                    pulls the Docker Images and Docker Compose up the services.
+
+                    Finally, a Lighthouse test is performed to ensure the site is accessible and performant.
                 </p>
 
                 <img class="dashboard" src="../public/images/swampfest/swampfestTickets.webp" alt="Screenshot of Swampfests ticket process" />
@@ -124,9 +140,9 @@
 <script setup>
 
 useHead({
-  title: 'Swampfest | Federico Barbieri',
+  title: 'SMK | Federico Barbieri',
   meta: [
-    { name: 'description', content: "Swampfest, a project created by Federico Barbieri" }
+    { name: 'description', content: "SMK Art Project, a project created by Federico Barbieri" }
   ],
   lang: 'en',
 })

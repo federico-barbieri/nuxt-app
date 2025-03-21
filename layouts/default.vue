@@ -77,7 +77,6 @@ ul{
 
 ul > li:hover {
     cursor: pointer;
-    border-bottom: 1px solid black;
 }
 
 li{
