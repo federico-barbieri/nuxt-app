@@ -2,18 +2,21 @@
     <section>
         <div class="text">
             <h1>About me</h1>
-            <p>I'm a web developer at BioNordic and student at KEA.</p>
-            <p>As part of my third semester, I'm looking for an unpaid internship between January and April 2025.</p>
-            <p>In my freetime you'll find me learning more about web security and perfecting my Danish.</p>
+            <p>I'm a Frontend Developer with a background in advertising.</p>
+            <p>Permanently living in Denmark since 2020.</p>
+            <p>Currently diving deep into Shopify.</p>
             
             <h2>Education</h2>
             <ul>
                 <li>KEA - PBA i Web Udvikling(2024-2025)</li>
                 <li>KEA - Associates Degree in Multimedia Design (2022-2024)</li>
             </ul>
+            
+            
 
             <h2>Work Experience</h2>
             <ul>
+                <li><em>BioNordic</em> - <strong>Frontend Developer</strong> - Internship (Jan 2025 - Apr 2025)</li>
                 <li><em>BioNordic</em> - <strong>Web Developer</strong> (Dec 2023 - Current Position)</li>
                 <li><em>Waitly</em> - <strong>Frontend Developer</strong> - Internship (Aug 2023- Dec 2023)</li>
                 <li><em>AIM Robotics</em> - <strong>Frontend Developer</strong> - (Dec 2022- May 2023)</li>
