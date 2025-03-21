@@ -16,7 +16,7 @@
 
             <h2>Work Experience</h2>
             <ul>
-                <li><em>BioNordic</em> - <strong>Frontend Developer</strong> - Internship (Jan 2025 - Apr 2025)</li>
+                <li><em>Mercive</em> - <strong>Frontend Developer</strong> - Internship (Jan 2025 - Apr 2025)</li>
                 <li><em>BioNordic</em> - <strong>Web Developer</strong> (Dec 2023 - Current Position)</li>
                 <li><em>Waitly</em> - <strong>Frontend Developer</strong> - Internship (Aug 2023- Dec 2023)</li>
                 <li><em>AIM Robotics</em> - <strong>Frontend Developer</strong> - (Dec 2022- May 2023)</li>
