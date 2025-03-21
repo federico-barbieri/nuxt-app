@@ -11,7 +11,7 @@
     </section>
 
     <section class="swampfest">
-      <swampfest />
+      <smk />
     </section>
 
     <section class="experimentarium">

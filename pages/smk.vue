@@ -36,16 +36,15 @@
                                 <img class="toolLogo" src="../public/icons/nginx-svgrepo-com.svg" alt="Nginx icon" />
                             </UTooltip>
                         </li>
+                        <li>
+                            <UTooltip text="GitLab" :popper="{ placement: 'top' }">
+                                <img class="gitlab" src="../public/icons/gitlab-logo-100.svg" alt="GitLab icon" />
+                            </UTooltip>
+                        </li>
                     </ul>
                 </div>
                 <div class="titleLinks">
-                    <span>
-                        <a href="https://github.com/federico-barbieri/SwampFest" target="_blank">
-                            <UTooltip text="GitLab" :popper="{ placement: 'top' }">
-                                <img class="gitlabLogo" src="../public/icons/gitlab-logo-100.svg" alt="GitLab icon" />
-                            </UTooltip>
-                        </a>
-                    </span>
+                    
                     <span><a class="visitSite" href="https://examprojecttest.net/" target="_blank">Visit site &#8594;</a></span>
                 </div>
             </div>
@@ -62,13 +61,13 @@
             </p>
 
             <div class="descriptionGrid">
-                <img class="firstScreen" src="../public/images/swampfest/swampfestArtistGrid.webp" alt="First screen the user sees before logging in." />
+                <img class="firstScreen" src="../public/images/swampfest/nice_img2.jpg" alt="SMK art" />
                 <p class="triangulationDescription">A live schedule can be found for every day and for every stage. Additionally, users can 
                     read about their favourite bands in the bands' section.
                 </p>
                 <div class="personaAndFlow">
-                    <img class="persona" src="../public/images/swampfest/swampfestSchedule.webp" alt="Persona created after interviewing parents." />
-                    <img class="flow" src="../public/images/swampfest/swampfestBand.webp" alt="Tech flow between Nuxt 3, Supabase, Github and Vercel." />
+                    <img class="persona" src="../public/images/swampfest/nice_image3.png" alt="SMK art." />
+                    <img class="flow" src="../public/images/swampfest/nice_image4.jpg" alt="SMK art." />
                 </div>
 
             </div>
@@ -241,6 +240,12 @@ span{
     transition: all 0.5s ease-in;
 }
 
+.gitlab{
+    width: 5rem;
+    padding-right: 1rem;
+    transition: all 0.5s ease-in;
+}
+
 .toolLogo:hover{
     filter: drop-shadow(2px 2px 2px #35354A);
 }
@@ -250,6 +255,10 @@ span{
 }
 
 .postgres:hover{
+    filter: drop-shadow(2px 2px 2px #35354A);
+}
+
+.gitlab:hover{
     filter: drop-shadow(2px 2px 2px #35354A);
 }
 

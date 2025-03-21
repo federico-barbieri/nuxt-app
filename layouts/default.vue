@@ -11,7 +11,7 @@
 
         <footer>
 
-            <h3 class="federicoBarbieri"><strong>Federico Barbieri 2024</strong></h3>
+            <h3 class="federicoBarbieri"><strong>&copy; Federico Barbieri 2025</strong></h3>
             
             <div class="some">
                 <a href="https://www.linkedin.com/in/fedebarbieri" aria-label="Check Federico's LinkedIn profile" target="_blank">
@@ -31,7 +31,7 @@
 
             <div class="pagesInFooter">
                 <h4 class="projectOnHover"><nuxt-link to="reborn">Rebørn</nuxt-link></h4>
-                <h4 class="projectOnHover"><nuxt-link to="swampfest">Swampfest</nuxt-link></h4>
+                <h4 class="projectOnHover"><nuxt-link to="smk">SMK</nuxt-link></h4>
                 <h4 class="projectOnHover"><nuxt-link to="experimentarium">Experimentarium</nuxt-link></h4>
             </div>
             
