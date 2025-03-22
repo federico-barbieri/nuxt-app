@@ -3,10 +3,12 @@
         <section class="title">
             <div class="titleMain">
                 <h1>SMK's vision into the future</h1>
-                <p>With more than 200.000 artworks, SMK aims to <a href="https://www.smk.dk/en/article/smk-open/"><em>digitalize their entire collection</em></a>. This project imagines a potential way of doing it. Made in collaboration with Henry Navntoft.
+                <p>With more than 200.000 artworks, SMK aims to 
+                    <a href="https://www.smk.dk/en/article/smk-open/"><em>digitalize their entire collection</em></a>. 
+                    This project imagines a potential way of doing it. 
+                    Made in collaboration with Henry Navntoft for the subject Full Stack Development.
                 </p>
             </div>
-
             <div class="toolsAndLinks">
                 <div class="titleTools">
                     <p>Built with:</p>
@@ -54,85 +56,51 @@
                 </div>
             </div>
         </section>
-
-
-
-        <section class="description">
+        <section class="introduction">
             <img class="img" src="../public/images/swampfest/titans.jpg" alt="Hero image of SMK" />
-
-            <div>
-                <h2>How it works</h2>
-
-                <p class="rebornDescription">
-                    The platform is seeded with 2000 artworks taken from the API and stored in a PostgreSQL database, 
-                    following a Prisma model. For efficiency, it uses tanstack query and incorporates pagination, filtering and sorting.
+            <div class="inner_introduction">
+                <h2>Introduction</h2>
+                <p>
+                    SMK has created an amazing API full of information about their artworks.
+                    This project aims to create a platform where users can explore and interact with the collection.
+                    <br><br>
+                    To give the user enough flexibility without overwhelming it, 
+                    the platform is initially seeded with 2000 artworks taken from the API 
+                    and stored in a PostgreSQL database, following Prisma models. 
+                    For efficiency, it uses tanstack query and incorporates pagination, filtering and sorting.
                 </p>
-
             </div>
-
-
-            <div class="descriptionGrid">
-                <img class="firstScreen" src="../public/images/swampfest/nice_img2.jpg" alt="SMK art" />
-                <p class="triangulationDescription">
-                    A user can sign up, log in, get a new password, and like/unlike their favorite artworks.
-                </p>
-                <div class="personaAndFlow">
-                    <img class="persona" src="../public/images/swampfest/nice_image3.png" alt="SMK art." />
-                    <img class="flow" src="../public/images/swampfest/nice_image4.jpg" alt="SMK art." />
-                </div>
-
-            </div>
-
         </section>
-
-        <section class="nuxtModules">
-            
-            <div class="dashboardSection">
+        <section class="features">
+            <img class="img" src="../public/images/swampfest/nice_img2.jpg" alt="SMK art" />
+            <div class="inner_features">
+                <h2>Features</h2>
+                <ul>
+                    <li>Sign up flow</li>
+                    <li>Log in flow</li>
+                    <li>Forgot password flow</li>
+                    <li>Like/Unlike artworks</li>
+                    <li>Filtering</li>
+                    <li>Sorting</li>
+                    <li></li>
+                </ul>
+            </div>
+        </section>
+        <section class="process">
+            <smk_carousel />
+            <div class="inner_process">
                 <h2>The Process</h2>
-
-                <p class="dashboardDescription">
+                <p>
                     When a change is made to the codebase, a long process starts. The code is pushed to GitLab, 
                     where a CI pipeline tests it and builds Docker Images that are stored in Docker Registry.
+                    <br><br>
                     In the deployment stage, the CI job accesses my virtual private server with my credentials, 
                     pulls the Docker Images and Docker Compose up the services.
-
-                    Finally, a Lighthouse test is performed to ensure the site is accessible and performant.
                 </p>
-
-                <img class="dashboard" src="../public/images/swampfest/swampfestTickets.webp" alt="Screenshot of Swampfests ticket process" />
-
             </div>
-
-            <div class="nuxtModulesImgs">
-
-                <p class="daycaresDescription">
-                    One can also purchase add-ons that are reflected in the price in real time.
-                </p>
-                <img class="swampOne" src="../public/images/swampfest/swampfestTicketsStepOne.webp" alt="Filters' tab in the dashboard" />
-                <img class="swampTwo" src="../public/images/swampfest/swampfestTicketsStepTwo.webp" alt="Map' tab in the dashboard" />
-                <img class="swampThree" src="../public/images/swampfest/swampfestTicketsStepThree.webp" alt="Distance' tab in the dashboard" />
-
-            </div>
-
-            <div class="visitingDiv">
-
-                <img class="daycarePanel" src="../public/images/swampfest/swampfestTicketsStepFour.webp" alt="Daycares' tab in the dashboard" />
-
-                <img class="calendlyPanel" src="../public/images/swampfest/swampfestTicketsStepFive.webp" alt="Calendly's nuxt module dashboard" />
-                
-            </div>
-
-            <div class="subscriptionsDiv">
-                <p class="subscriptionsDescription">
-                    The purchase is safely stored in Supabase and contains the entire user's information.
-                </p>                
-                
-                <img class="calendlyPanel" src="../public/images/swampfest/swampfestTicketsStepSix.webp" alt="Calendly's nuxt module dashboard" />
-
-
-                <span class="nextProject"><nuxt-link to="experimentarium">Next project &#8594;</nuxt-link></span>
-
-            </div>
+        </section>
+        <section class="nextProjectSection">
+            <span class="nextProject"><nuxt-link to="smk">Next project &#8594;</nuxt-link></span>
         </section>
     </main>
 </template>
@@ -303,151 +271,84 @@ span{
     filter: drop-shadow(2px 2px 2px #35354A);
 }
 
-/* DESCRIPTION */
+/* INTRODUCTION */
 
-.description{
+.introduction{
     width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: space-around;
+    height: auto;
+    gap: 50px;
 }
 
-.description .img{
+.introduction .img,
+.features .img{
     max-width: 100%;
     display: block;
     margin: 0 auto;
 }
 
-.rebornDescription{
-    width: 50%;
-    text-align: left;
-    margin: 5rem auto 5rem 0;
+.introduction p,
+.features p{
+    max-width: 50ch;
 }
 
-/* DESCRIPTION GRID */
-
-.descriptionGrid{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.firstScreen{
-    max-width: 100%;
-}
-
-.triangulationDescription{
-    width: 50%;
-    text-align: left;
-    margin: 5rem 0 5rem auto;
-}
-
-.personaAndFlow{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.persona{
-    max-width: 100%;
-    margin: 0 auto 2rem 0;
-}
-
-.flow{
-    max-width: 100%;
-    margin: 0 0 2rem auto;
-}
-
-/* DASHBOARD */
-
-.dashboardSection{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.dashboardDescription{
-    max-width: 70%;
-    margin: 2rem auto 5rem 0;
-}
-
-.daycaresDescription{
-    max-width: 70%;
-    margin: 5rem 0 5rem auto;
-}
-
-/* NUXT MODULES IMGS */
-
-.nuxtModules{
+/* FEATURES */
+.features{
     width: 80%;
+    margin: 2rem auto 0 auto;
     display: flex;
     flex-direction: column;
-    margin: 2rem auto;
+    align-items: right;
+    justify-content: space-around;
+    height: auto;
+    gap: 50px;
 }
 
-.nuxtModulesImgs{
+.inner_features{
     width: 100%;
+    text-align: right;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+/* PROCESS */
+.process{
+    width: 80%;
+    margin: 2rem auto 2rem auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: right;
     justify-content: space-around;
+    height: auto;
+    gap: 50px;
+}
+
+.inner_process{
+    width: 100%;
+    text-align: left;
+    margin-right: auto;
+    margin-left: 0;
+}
+
+.inner_process p{
+    max-width: 50ch;
+}
+
+/* NEXT PROJECT */
+
+.nextProjectSection{
+    width: 80%;
     margin: 0 auto;
-}
-
-.nuxtModulesImgs img{
-    max-width: 100%;
-    margin: 2rem auto 2rem 0;
-}
-
-/* PLANNING A VISIT */
-
-.visitingDiv{
-    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: right;
     justify-content: space-around;
-    margin: 0 auto;
-}
-
-.visitingIntro{
-    max-width: 50%;
-    margin: 5rem auto 5rem 0;
-}
-
-.visitingDescription{
-    max-width: 50%;
-    margin: 5rem 0 5rem auto;
-}
-
-.daycarePanel{
-    max-width: 100%;
-    margin: 2rem auto;
-}
-
-.calendlyPanel{
-    max-width: 100%;
-    margin: 2rem auto; 
-}
-
-.subscriptionsDiv{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin: 0 auto 5rem auto;
-}
-
-.subscriptionsDescription{
-    max-width: 50%;
-    margin: 5rem auto 5rem 0;
+    height: auto;
+    gap: 50px;
 }
 
 .nextProject{
@@ -591,142 +492,6 @@ span{
 .rebornDescription{
     width: 70%;
     text-align: left;
-    margin: 5rem auto 5rem 0;
-}
-
-/* DESCRIPTION GRID */
-
-.descriptionGrid{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.firstScreen{
-    max-width: 100%;
-}
-
-.triangulationDescription{
-    width: 70%;
-    text-align: left;
-    margin: 5rem 0 5rem auto;
-}
-
-.personaAndFlow{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.persona{
-    max-width: 100%;
-    margin: 0 auto 2rem 0;
-}
-
-.flow{
-    max-width: 100%;
-    margin: 0 0 2rem auto;
-}
-
-/* DASHBOARD */
-
-.dashboardSection{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-}
-
-.dashboardSection h2{
-    margin: 0 auto 0 0;
-}
-
-.dashboardDescription{
-    max-width: 70%;
-    margin: 2rem auto 5rem 0;
-}
-
-.daycaresDescription{
-    max-width: 70%;
-    margin: 5rem 0 5rem auto;
-}
-
-/* NUXT MODULES IMGS */
-
-
-.nuxtModules{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 2rem auto;
-    padding: 0;
-}
-
-.nuxtModulesImgs{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin: 0 auto;
-}
-
-.nuxtModulesImgs img{
-    max-width: 100%;
-    margin: 2rem auto 2rem 0;
-}
-
-.dashboard{
-    max-width: 100%;
-    height: auto;
-}
-
-/* PLANNING A VISIT */
-
-.visitingDiv{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin: 0 auto;
-}
-
-.visitingIntro{
-    max-width: 70%;
-    margin: 5rem auto 5rem 0;
-}
-
-.visitingDescription{
-    max-width: 70%;
-    margin: 5rem 0 5rem auto;
-}
-
-.daycarePanel{
-    max-width: 100%;
-    margin: 2rem 0 2rem auto;
-}
-
-.calendlyPanel{
-    max-width: 100%;
-    margin: 2rem 0 2rem auto; 
-}
-
-.subscriptionsDiv{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin: 0 auto 5rem auto;
-}
-
-.subscriptionsDescription{
-    max-width: 70%;
     margin: 5rem auto 5rem 0;
 }
 
@@ -874,142 +639,6 @@ span{
 .rebornDescription{
     width: 100%;
     text-align: left;
-    margin: 5rem auto 5rem 0;
-}
-
-/* DESCRIPTION GRID */
-
-.descriptionGrid{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.firstScreen{
-    max-width: 100%;
-}
-
-.triangulationDescription{
-    width: 100%;
-    text-align: left;
-    margin: 5rem 0 5rem auto;
-}
-
-.personaAndFlow{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.persona{
-    max-width: 100%;
-    margin: 0 auto 2rem 0;
-}
-
-.flow{
-    max-width: 100%;
-    margin: 0 0 2rem auto;
-}
-
-/* DASHBOARD */
-
-.dashboardSection{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-}
-
-.dashboardSection h2{
-    margin: 0 auto 0 0;
-}
-
-.dashboardDescription{
-    max-width: 100%;
-    margin: 2rem auto 5rem 0;
-}
-
-.daycaresDescription{
-    max-width: 100%;
-    margin: 5rem auto 5rem 0;
-}
-
-/* NUXT MODULES IMGS */
-
-
-.nuxtModules{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 2rem auto;
-    padding: 0;
-}
-
-.nuxtModulesImgs{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin: 0 auto;
-}
-
-.nuxtModulesImgs img{
-    max-width: 100%;
-    margin: 2rem auto 2rem 0;
-}
-
-.dashboard{
-    max-width: 100%;
-    height: auto;
-}
-
-/* PLANNING A VISIT */
-
-.visitingDiv{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin: 0 auto;
-}
-
-.visitingIntro{
-    max-width: 70%;
-    margin: 5rem auto 5rem 0;
-}
-
-.visitingDescription{
-    max-width: 100%;
-    margin: 5rem 0 5rem auto;
-}
-
-.daycarePanel{
-    max-width: 100%;
-    margin: 2rem 0 2rem auto;
-}
-
-.calendlyPanel{
-    max-width: 100%;
-    margin: 2rem 0 2rem auto; 
-}
-
-.subscriptionsDiv{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    margin: 0 auto 5rem auto;
-}
-
-.subscriptionsDescription{
-    max-width: 100%;
     margin: 5rem auto 5rem 0;
 }
 
