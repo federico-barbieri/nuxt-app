@@ -72,7 +72,7 @@
             </div>
         </section>
         <section class="features">
-            <img class="img" src="../public/images/swampfest/smk/boat.jpg" alt="SMK art" />
+            <img class="img" src="../public/images/swampfest/boat.jpg" alt="SMK art" />
             <div class="inner_features">
                 <h2>Features</h2>
                 <ul>
