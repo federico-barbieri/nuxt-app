@@ -99,9 +99,11 @@
                 </p>
             </div>
         </section>
+        <!-- 
         <section class="nextProjectSection">
-            <span class="nextProject"><nuxt-link to="smk">Next project &#8594;</nuxt-link></span>
+            <span class="nextProject"><nuxt-link to="#">Next project &#8594;</nuxt-link></span>
         </section>
+        -->
     </main>
 </template>
 

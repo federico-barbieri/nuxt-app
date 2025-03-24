@@ -14,9 +14,13 @@
       <smk />
     </section>
 
+    <!-- 
+
     <section class="experimentarium">
       <experimentarium />
     </section>
+
+    -->
     
   </main>
 </template>
