@@ -61,8 +61,9 @@ h1{
     font-size: 1.5rem;
 }
 
-.linkedin{
-    width: 2rem;
+.linkedin,
+.bi-envelope{
+    max-width: 1rem;
 }
 
 ul{
@@ -70,7 +71,7 @@ ul{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    width: 30%;
+    width: 20%;
     list-style: none;
     font-size: 1.5rem;
 }
@@ -185,9 +186,7 @@ ul{
     margin: 0 auto;
 }
 
-.linkedin{
-    width: 2rem;
-}
+
 
 .github{
     width: 4rem;
@@ -228,16 +227,7 @@ ul{
     margin: 0 auto;
     width: auto;
 }
-.linkedin{
-    width: 4rem;
-}
 
-.github{
-    width: 4rem;
-}
-.bi-envelope{
-    width: 4rem;
-}
 .projectOnHover{
     font-size: 0.6rem;
     font-weight: 100;
