@@ -16,8 +16,24 @@
 
             <h2>Work Experience</h2>
             <ul>
+                <li><em>Mercive</em> - <strong>Frontend Developer</strong> - (Apr 2025 - Current)</li>
                 <li><em>Mercive</em> - <strong>Frontend Developer</strong> - Internship (Jan 2025 - Apr 2025)</li>
-                <li><em>BioNordic</em> - <strong>Web Developer</strong> (Dec 2023 - Current Position)</li>
+                <li><em>BioNordic</em> - <strong>Web Developer</strong> (Dec 2023 - Apr 2025)</li>
+                <li><em>Waitly</em> - <strong>Frontend Developer</strong> - Internship (Aug 2023- Dec 2023)</li>
+                <li><em>AIM Robotics</em> - <strong>Frontend Developer</strong> - (Dec 2022- May 2023)</li>
+            </ul>
+
+            <h2>Contact</h2>
+            <ul>
+                <li><em>LinkedIn</em></li>
+                <li>
+                    <em>
+                        <a href="mailto: federico.pedro.barbieri@gmail.com" aria-label="Send an email to Federico" target="_blank">
+                            federico.pedro.barbieri@gmail.com
+                        </a>
+                    </em>
+                </li>
+                <li><em>BioNordic</em> - <strong>Web Developer</strong> (Dec 2023 - Apr 2025)</li>
                 <li><em>Waitly</em> - <strong>Frontend Developer</strong> - Internship (Aug 2023- Dec 2023)</li>
                 <li><em>AIM Robotics</em> - <strong>Frontend Developer</strong> - (Dec 2022- May 2023)</li>
             </ul>

@@ -165,6 +165,33 @@ body{
     background-color: rgba(66, 164, 209, 0.5);
 }
 
+@media only screen and (max-width: 1020px) {
+  .daycares::before,
+  .swampfest::before,
+  .experimentarium::before {
+    opacity: 0.5;
+  }
+  
+  .daycares,
+  .swampfest,
+  .experimentarium {
+    color: #f9f7f7;
+    padding-bottom: 8rem;
+  }
+  
+  .daycares {
+    background-color: rgba(53, 53, 74, 0.5);
+  }
+  
+  .swampfest::before {
+    opacity: 1;
+  }
+  
+  .experimentarium {
+    background-color: rgba(66, 164, 209, 0.5);
+  }
+}
+
 @media only screen and (max-width: 300px){
   .daycares {
   padding: 1rem 0 0 0.5rem;
@@ -177,14 +204,14 @@ body{
   padding: 1rem 0 0 0.5rem;
   width: 100%;
   margin: 0 auto 0 0;
-  position: relative; /* Add this line */
+  position: relative;
   transition: padding 0.5s ease, background-color 0.5s ease;
 }
   .experimentarium{
   padding: 1rem 0 0 0.5rem;
   width: 100%;
   margin: 0 auto 0 0; 
-  position: relative; /* Add this line */
+  position: relative;
   transition: padding 0.5s ease, background-color 0.5s ease;
 }
 }

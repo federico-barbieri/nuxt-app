@@ -99,6 +99,21 @@
                 </p>
             </div>
         </section>
+        <section class="features">
+            <img class="img" src="../public/images/swampfest/smk-ci-pipeline.png" alt="CI pipeline" />
+            <div class="inner_features">
+                <h2>Features</h2>
+                <ul>
+                    <li>Sign up flow</li>
+                    <li>Log in flow</li>
+                    <li>Forgot password flow</li>
+                    <li>Like/Unlike artworks</li>
+                    <li>Filtering</li>
+                    <li>Sorting</li>
+                    <li></li>
+                </ul>
+            </div>
+        </section>
         <!-- 
         <section class="nextProjectSection">
             <span class="nextProject"><nuxt-link to="#">Next project &#8594;</nuxt-link></span>
