@@ -101,18 +101,7 @@
         </section>
         <section class="features">
             <img class="img" src="../public/images/swampfest/smk-ci-pipeline.png" alt="CI pipeline" />
-            <div class="inner_features">
-                <h2>Features</h2>
-                <ul>
-                    <li>Sign up flow</li>
-                    <li>Log in flow</li>
-                    <li>Forgot password flow</li>
-                    <li>Like/Unlike artworks</li>
-                    <li>Filtering</li>
-                    <li>Sorting</li>
-                    <li></li>
-                </ul>
-            </div>
+            
         </section>
         <!-- 
         <section class="nextProjectSection">
@@ -671,6 +660,177 @@ span{
 .nextProject:hover{
     border-bottom: 2px solid #35354A;
 }
+}
+
+.introduction .img,
+.features .img,
+.process .img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+@media only screen and (max-width: 1200px) {
+    main {
+        width: 90%;
+    }
+    
+    .title, .introduction, .features, .process {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    main {
+        width: 95%;
+        padding: 0.5rem;
+    }
+    
+    .title {
+        width: 95%;
+    }
+    
+    .introduction, .features, .process {
+        width: 90%;
+        gap: 30px;
+    }
+    
+    .introduction .img,
+    .features .img,
+    .process .img {
+        max-width: 95%;
+    }
+    
+    .inner_introduction,
+    .inner_features,
+    .inner_process {
+        padding: 0 1rem;
+    }
+    
+    .toolLogo, .docker, .postgres, .gitlab {
+        width: 3.5rem;
+        padding-right: 0.75rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    main {
+        width: 100%;
+        padding: 0.5rem;
+    }
+    
+    .introduction, .features, .process {
+        width: 95%;
+        gap: 25px;
+    }
+    
+    .inner_features {
+        text-align: left;
+        margin-left: 0;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+        text-align: left;
+    }
+    
+    h2 {
+        font-size: 1.4rem;
+    }
+    
+    .toolsAndLinks {
+        flex-direction: column;
+    }
+    
+    .titleTools ul {
+        justify-content: center;
+    }
+    
+    .titleLinks {
+        justify-content: center;
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .introduction, .features, .process {
+        width: 100%;
+        gap: 20px;
+    }
+    
+    .introduction .img,
+    .features .img,
+    .process .img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .inner_introduction,
+    .inner_features,
+    .inner_process {
+        width: 95%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    .toolLogo, .docker, .postgres, .gitlab {
+        width: 3rem;
+        padding-right: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    
+    .titleTools ul li {
+        margin-bottom: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+    
+    h2 {
+        font-size: 1.2rem;
+    }
+    
+    .introduction, .features, .process {
+        gap: 15px;
+    }
+    
+    .toolLogo, .docker, .postgres, .gitlab {
+        width: 2.5rem;
+        padding-right: 0.4rem;
+    }
+    
+    .titleMain p {
+        font-size: 0.9rem;
+    }
+    
+    .inner_introduction p,
+    .inner_features p,
+    .inner_process p {
+        font-size: 0.9rem;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    h1 {
+        font-size: 1.3rem;
+    }
+    
+    .toolLogo, .docker, .postgres, .gitlab {
+        width: 2.2rem;
+        padding-right: 0.3rem;
+    }
+    
+    .titleTools ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
 </style>
