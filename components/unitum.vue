@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2><nuxt-link to="experimentarium"><span class="number">03.</span> Experimentarium</nuxt-link></h2>
+        <h2><nuxt-link to="unitum"><span class="number">03.</span> UNITUM</nuxt-link></h2>
     
     </div>
 </template>

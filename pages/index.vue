@@ -14,13 +14,9 @@
       <smk />
     </section>
 
-    <!-- 
-
-    <section class="experimentarium">
-      <experimentarium />
+    <section class="unitum">
+      <unitum />
     </section>
-
-    -->
     
   </main>
 </template>
@@ -128,22 +124,22 @@ body{
 
 }
 
-.experimentarium{
+.unitum{
   padding: 1rem 0 0 2rem;
   width: 100%;
   margin: 0 auto 0 0; 
-  position: relative; /* Add this line */
+  position: relative;
   transition: padding 0.5s ease, background-color 0.5s ease;
 }
 
-.experimentarium::before {
+.unitum::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("../public/projectsImgs/messi2.png");
+  background: url("../public/projectsImgs/unitum.webp");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -154,11 +150,11 @@ body{
 
 }
 
-.experimentarium:hover::before {
+.unitum:hover::before {
   opacity: 0.5;
 }
 
-.experimentarium:hover{
+.unitum:hover{
     color: #F9F7F7;
     cursor: pointer;
     padding-bottom: 8rem;
@@ -168,13 +164,13 @@ body{
 @media only screen and (max-width: 1020px) {
   .daycares::before,
   .swampfest::before,
-  .experimentarium::before {
+  .unitum::before {
     opacity: 0.5;
   }
   
   .daycares,
   .swampfest,
-  .experimentarium {
+  .unitum {
     color: #f9f7f7;
     padding-bottom: 8rem;
   }
@@ -187,7 +183,7 @@ body{
     opacity: 1;
   }
   
-  .experimentarium {
+  .unitum {
     background-color: rgba(66, 164, 209, 0.5);
   }
 }
@@ -207,7 +203,7 @@ body{
   position: relative;
   transition: padding 0.5s ease, background-color 0.5s ease;
 }
-  .experimentarium{
+  .unitum{
   padding: 1rem 0 0 0.5rem;
   width: 100%;
   margin: 0 auto 0 0; 
